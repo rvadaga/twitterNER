@@ -25,6 +25,7 @@ folder inside evaluations directory
 - DO NOT forget to give embedding locations while running train.py
 in case you have them
 
-notes for 04_lasagne_nlp_wnut
+04_lasagne_nlp_wnut
+-------------------
 - use theano==0.8.2 to run the program
 
