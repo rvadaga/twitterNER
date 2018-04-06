@@ -1,0 +1,92 @@
+2017-05-01 00:28:25,985 - LoadData - INFO - Reading words from train set
+2017-05-01 00:28:26,290 - LoadData - INFO - #sentences: 3394, #tokens: 62730
+2017-05-01 00:28:26,290 - LoadData - INFO - Reading words from orth train set
+2017-05-01 00:28:26,500 - LoadData - INFO - #sentences: 3394, #tokens: 62730
+2017-05-01 00:28:26,500 - LoadData - INFO - Reading data from dev set
+2017-05-01 00:28:26,539 - LoadData - INFO - #sentences: 420, #tokens: 6789
+2017-05-01 00:28:26,539 - LoadData - INFO - Reading data from orth dev set
+2017-05-01 00:28:26,568 - LoadData - INFO - #sentences: 420, #tokens: 6789
+2017-05-01 00:28:26,568 - LoadData - INFO - Reading data from test set
+2017-05-01 00:28:26,871 - LoadData - INFO - #sentences: 3850, #tokens: 61908
+2017-05-01 00:28:26,872 - LoadData - INFO - Reading data from orth test set
+2017-05-01 00:28:27,084 - LoadData - INFO - #sentences: 3850, #tokens: 61908
+2017-05-01 00:28:27,085 - LoadData - INFO - Word collection size: 30225
+2017-05-01 00:28:27,085 - LoadData - INFO - Label collection size: 21
+2017-05-01 00:28:27,085 - LoadData - INFO - Orthographic word collection size: 5884
+2017-05-01 00:28:27,087 - LoadData - INFO - Max sentence length of training set: 41
+2017-05-01 00:28:27,087 - LoadData - INFO - Max sentence length of dev set: 39
+2017-05-01 00:28:27,087 - LoadData - INFO - Max sentence length of test set:  35
+2017-05-01 00:28:27,088 - LoadData - INFO - Max sentence length for training: 41
+2017-05-01 00:28:27,088 - LoadData - INFO - Generating data with fine tuning
+2017-05-01 00:28:27,088 - LoadData - INFO - Loading w2v_twitter embeddings
+2017-05-01 00:28:27,090 - LoadData - INFO - Word embedding dimension: 400, case: True
+2017-05-01 00:28:27,090 - LoadData - INFO - Initialising orth word embeddings
+2017-05-01 00:28:27,091 - LoadData - INFO - Orthographic word embedding dimension: 200
+2017-05-01 00:28:27,956 - LoadData - INFO - char: char collection size: 130
+2017-05-01 00:28:27,956 - LoadData - INFO - char: maximum char length in training set: 121
+2017-05-01 00:28:27,956 - LoadData - INFO - char: maximum char length in dev set: 29
+2017-05-01 00:28:27,956 - LoadData - INFO - char: maximum char length in test set: 274
+2017-05-01 00:28:27,956 - LoadData - INFO - char: maximum char length used for training: 45
+2017-05-01 00:28:28,999 - LoadData - INFO - orth_char: char collection size: 41
+2017-05-01 00:28:28,999 - LoadData - INFO - orth_char: maximum char length in training set: 121
+2017-05-01 00:28:28,999 - LoadData - INFO - orth_char: maximum char length in dev set: 29
+2017-05-01 00:28:28,999 - LoadData - INFO - orth_char: maximum char length in test set: 274
+2017-05-01 00:28:29,000 - LoadData - INFO - orth_char: maximum char length used for training: 45
+____________________________________________________________________________________________________
+Layer (type)                     Output Shape          Param #     Connected to
+====================================================================================================
+char_input (InputLayer)          (None, 1845)          0
+____________________________________________________________________________________________________
+orth_char_input (InputLayer)     (None, 1845)          0
+____________________________________________________________________________________________________
+char_emb_1 (Embedding)           (None, 1845, 30)      3930        char_input[0][0]
+____________________________________________________________________________________________________
+orth_char_emb_1 (Embedding)      (None, 1845, 30)      1260        orth_char_input[0][0]
+____________________________________________________________________________________________________
+char_reshape_2 (Reshape)         (None, 41, 45, 30)    0           char_emb_1[0][0]
+____________________________________________________________________________________________________
+orth_char_reshape_2 (Reshape)    (None, 41, 45, 30)    0           orth_char_emb_1[0][0]
+____________________________________________________________________________________________________
+char_permute_3 (Permute)         (None, 30, 41, 45)    0           char_reshape_2[0][0]
+____________________________________________________________________________________________________
+orth_char_permute_3 (Permute)    (None, 30, 41, 45)    0           orth_char_reshape_2[0][0]
+____________________________________________________________________________________________________
+char_conv2d_4 (Conv2D)           (None, 200, 41, 45)   18200       char_permute_3[0][0]
+____________________________________________________________________________________________________
+orth_char_conv2d_4 (Conv2D)      (None, 200, 41, 45)   18200       orth_char_permute_3[0][0]
+____________________________________________________________________________________________________
+char_maxpool_5 (MaxPooling2D)    (None, 200, 41, 1)    0           char_conv2d_4[0][0]
+____________________________________________________________________________________________________
+orth_char_maxpool_5 (MaxPooling2 (None, 200, 41, 1)    0           orth_char_conv2d_4[0][0]
+____________________________________________________________________________________________________
+char_reshape_6 (Reshape)         (None, 200, 41)       0           char_maxpool_5[0][0]
+____________________________________________________________________________________________________
+word_input (InputLayer)          (None, 41)            0
+____________________________________________________________________________________________________
+orth_char_reshape_6 (Reshape)    (None, 200, 41)       0           orth_char_maxpool_5[0][0]
+____________________________________________________________________________________________________
+orth_word_input (InputLayer)     (None, 41)            0
+____________________________________________________________________________________________________
+char_word_emb (Permute)          (None, 41, 200)       0           char_reshape_6[0][0]
+____________________________________________________________________________________________________
+word_emb (Embedding)             (None, 41, 400)       12090400    word_input[0][0]
+____________________________________________________________________________________________________
+orth_char_word_emb (Permute)     (None, 41, 200)       0           orth_char_reshape_6[0][0]
+____________________________________________________________________________________________________
+orth_word_emb (Embedding)        (None, 41, 200)       1177000     orth_word_input[0][0]
+____________________________________________________________________________________________________
+concatenate_2 (Concatenate)      (None, 41, 1000)      0           char_word_emb[0][0]
+                                                                   word_emb[0][0]
+                                                                   orth_char_word_emb[0][0]
+                                                                   orth_word_emb[0][0]
+____________________________________________________________________________________________________
+bidirectional_1 (Bidirectional)  (None, 41, 400)       1921600     concatenate_2[0][0]
+____________________________________________________________________________________________________
+time_distributed_1 (TimeDistribu (None, 41, 21)        8421        bidirectional_1[0][0]
+____________________________________________________________________________________________________
+output (ChainCRF)                (None, 41, 21)        483         time_distributed_1[0][0]
+====================================================================================================
+Total params: 15,239,494
+Trainable params: 15,239,494
+Non-trainable params: 0
+____________________________________________________________________________________________________

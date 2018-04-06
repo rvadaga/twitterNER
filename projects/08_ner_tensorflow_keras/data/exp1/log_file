@@ -1,0 +1,37 @@
+2017-06-11 11:12:42,567 - PreprocessData - INFO - Reading words from train file
+2017-06-11 11:12:42,689 - PreprocessData - INFO - #sentences: 3394, #tokens: 62730
+2017-06-11 11:12:42,689 - PreprocessData - INFO - Reading orthographic words from train file
+2017-06-11 11:12:42,771 - PreprocessData - INFO - #sentences: 3394, #tokens: 62730
+2017-06-11 11:12:42,771 - PreprocessData - INFO - Reading words from dev file
+2017-06-11 11:12:42,784 - PreprocessData - INFO - #sentences: 420, #tokens: 6789
+2017-06-11 11:12:42,784 - PreprocessData - INFO - Reading orthographic words from dev file
+2017-06-11 11:12:42,794 - PreprocessData - INFO - #sentences: 420, #tokens: 6789
+2017-06-11 11:12:42,795 - PreprocessData - INFO - Reading words from test file
+2017-06-11 11:12:42,918 - PreprocessData - INFO - #sentences: 3850, #tokens: 61908
+2017-06-11 11:12:42,918 - PreprocessData - INFO - Reading orthographic words from test file
+2017-06-11 11:12:43,001 - PreprocessData - INFO - #sentences: 3850, #tokens: 61908
+2017-06-11 11:12:43,001 - PreprocessData - INFO - Closing collection sets
+2017-06-11 11:12:43,001 - PreprocessData - INFO - Word collection size: 30225
+2017-06-11 11:12:43,001 - PreprocessData - INFO - Label collection size: 21
+2017-06-11 11:12:43,001 - PreprocessData - INFO - Orthographic word collection size: 5884
+2017-06-11 11:12:43,003 - PreprocessData - INFO - Max sentence length of train set: 41
+2017-06-11 11:12:43,003 - PreprocessData - INFO - Max sentence length of development set: 39
+2017-06-11 11:12:43,003 - PreprocessData - INFO - Max sentence length of test set: 35
+2017-06-11 11:12:43,003 - PreprocessData - INFO - Max sentence length for training: 41
+2017-06-11 11:12:43,003 - PreprocessData - INFO - Loading embeddings from file
+2017-06-11 11:12:43,003 - PreprocessData - INFO - Loading w2v_twitter embeddings
+2017-06-11 11:13:04,943 - PreprocessData - INFO - Word embedding dimension: 400, case: True
+2017-06-11 11:13:04,943 - PreprocessData - INFO - Initialising orthographic word embeddings
+2017-06-11 11:13:04,943 - PreprocessData - INFO - Orthographic word embedding dimension: 200
+2017-06-11 11:13:04,943 - PreprocessData - INFO - Generating dataset for training
+2017-06-11 11:13:05,271 - PreprocessData - INFO - char collection size: 130
+2017-06-11 11:13:05,271 - PreprocessData - INFO - char: maximum char length in training set: 121
+2017-06-11 11:13:05,271 - PreprocessData - INFO - char: maximum char length in dev set: 29
+2017-06-11 11:13:05,271 - PreprocessData - INFO - char: maximum char length in test set: 274
+2017-06-11 11:13:05,272 - PreprocessData - INFO - char: maximum char length used for training: 45
+2017-06-11 11:13:05,701 - PreprocessData - INFO - orth_char collection size: 41
+2017-06-11 11:13:05,701 - PreprocessData - INFO - orth_char: maximum char length in training set: 121
+2017-06-11 11:13:05,701 - PreprocessData - INFO - orth_char: maximum char length in dev set: 29
+2017-06-11 11:13:05,701 - PreprocessData - INFO - orth_char: maximum char length in test set: 274
+2017-06-11 11:13:05,701 - PreprocessData - INFO - orth_char: maximum char length used for training: 45
+2017-06-11 11:13:06,202 - Bi-LSTM_CNN_CRF - INFO - Building network

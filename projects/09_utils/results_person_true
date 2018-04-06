@@ -1,0 +1,1269 @@
+
+Listing all true instances of person tags in: ../8_cambridge_ltl/data/exp3/predictions/17_test_predict.txt
+
+line                 word            true       predicted
+---- -------------------- --------------- ---------------
+
+  62               Albert        B-person        B-person
+  63                Nobbs        I-person        I-person
+
+  65                Glenn        B-person        B-person
+
+  89                Louis        B-person        B-person
+
+ 307                Emile        B-person        B-person
+ 308               Harmon        I-person        I-person
+
+ 394                Aaron        B-person        B-person
+ 395               Alexis        I-person        I-person
+
+ 596                  Gus        B-person        B-person
+
+ 723                 Mary        B-person        B-person
+ 724                 Nash        I-person        I-person
+ 725             Stoddard        I-person        I-person
+
+ 728                 June        B-person               O
+ 729               Stoyer        I-person               O
+
+1522               Steven        B-person        B-person
+1523                Jones        I-person        I-person
+
+1527                Jones        B-person        B-person
+
+1576               Bailey        B-person        B-person
+1577                  May        I-person               O
+
+1581               Bailey        B-person               O
+1582                  May        I-person               O
+
+1586               Bailey        B-person               O
+1587                  May        I-person               O
+
+1591               Bailey        B-person               O
+1592                  May        I-person               O
+
+1654                Aaron        B-person        B-person
+1655               Alexis        I-person        I-person
+
+1895              Theresa        B-person        B-person
+1896                  May        I-person               O
+
+1995           Kardashian        B-person        B-person
+
+2037                  God        B-person        B-person
+
+2439                 John        B-person        B-person
+2440               Kasich        I-person        I-person
+
+2446                POTUS        B-person               O
+
+2552                 Madi        B-person        B-person
+
+2593            President        B-person               O
+2594               Pranab        I-person        B-person
+2595            Mukherjee        I-person        I-person
+
+2604            President        B-person               O
+2605               Pranab        I-person        B-person
+2606            Mukherjee        I-person        I-person
+
+2611                Kirti        B-person               O
+
+2651               Linval        B-person        B-person
+2652               Joseph        I-person        I-person
+
+2659                linda        B-person               O
+
+2781                 June        B-person               O
+
+3185                Vicky        B-person        B-person
+
+3355                  Abe        B-person        B-person
+3356              Lincoln        I-person        I-person
+
+3405                PEETA        B-person               O
+
+3567                 Sean        B-person        B-person
+
+3573                 Seth        B-person        B-person
+3574               Meyers        I-person        I-person
+
+3584                 Seth        B-person        B-person
+
+3759             Emmeline        B-person               O
+3760         Costa-Wagner        I-person               O
+
+3902         #aaronlivesy        B-person               O
+
+3903        #RobertSugden        B-person               O
+
+4314                 lick        B-person               O
+4315                Srgay        I-person               O
+
+4385                James        B-person        B-person
+4386                Gramm        I-person        I-person
+
+4440                  Pao        B-person               O
+4441             Manajero        I-person               O
+
+4945                Glenn        B-person        B-person
+4946             Guilbeau        I-person        I-person
+
+5241                 Modi        B-person               O
+
+5385             #Tsipras        B-person               O
+
+5528             Muhammad        B-person        B-person
+5529              Youssef        I-person        I-person
+5530           Abdulazeez        I-person               O
+
+5559                 paul        B-person        B-person
+
+5915               Rupert        B-person        B-person
+5916              Murdoch        I-person        I-person
+
+5944                Jesus        B-person        B-person
+
+6141          No-Humanity        B-person               O
+6142             Caroline        I-person        B-person
+
+6144          No-humanity        B-person               O
+6145             Caroline        I-person        B-person
+
+6158               Stefan        B-person        B-person
+
+6532                LIAMS        B-person               O
+
+6536                 Alan        B-person        B-person
+6537              Baldwin        I-person        I-person
+
+6552               Carlos        B-person        B-person
+6553                Sainz        I-person        I-person
+
+6589              Stewart        B-person        B-person
+6590                    A        I-person        I-person
+6591                    .        I-person        I-person
+6592             Swerdlow        I-person        I-person
+
+7086               Nicole        B-person         B-other
+
+7155              Michael        B-person        B-person
+7156                Allan        I-person        I-person
+7157                Scott        I-person        I-person
+
+7200                  Tom        B-person        B-person
+7201             Stoppard        I-person        I-person
+
+7259                  God        B-person        B-person
+
+7269                  God        B-person        B-person
+
+7278                  God        B-person        B-person
+
+7375            President        B-person        B-person
+7376                Obama        I-person        I-person
+
+7633                David        B-person        B-person
+7634             Boreanaz        I-person        I-person
+
+7636                Jaime        B-person        B-person
+7637              Bergman        I-person        I-person
+
+7655                Wayne        B-person        B-person
+7656             LaPierre        I-person        I-person
+
+7727              Jessica        B-person        B-person
+7728                 Soho        I-person        I-person
+
+7734               Korina        B-person               O
+
+8014               george        B-person        B-person
+
+8112           #JodiArias        B-person        B-person
+
+8117               Travis        B-person        B-person
+
+8234                Derek        B-person        B-person
+8235               Jacobi        I-person        I-person
+
+8250              #Paddon        B-person               O
+
+8257           #Mikkelsen        B-person               O
+
+8269                 C.J.        B-person   B-musicartist
+8270                  Box        I-person   I-musicartist
+
+8819               #Obama        B-person               O
+
+9052               Merkel        B-person        B-person
+
+9054             Hollande        B-person        B-person
+
+9056              Tsipras        B-person        B-person
+
+9077               Jaylen        B-person        B-person
+9078              Fryberg        I-person        I-person
+
+9139                Floyd        B-person        B-person
+9140           Mayweather        I-person        I-person
+
+9148               LeBron        B-person        B-person
+9149                James        I-person        I-person
+
+9174            Elizabeth        B-person               O
+9175                   II        I-person               O
+
+9474               Lyndon        B-person        B-person
+9475              Johnson        I-person        I-person
+
+9717                 LYCA        B-person               O
+
+10087                 Jess        B-person        B-person
+10088             Beaulieu        I-person        I-person
+
+10090              Natalie        B-person        B-person
+10091               Norman        I-person        I-person
+
+10198                 Jack        B-person        B-person
+
+10200                 Pete        B-person        B-person
+
+10250                 Ryan        B-person        B-person
+10251            McCormick        I-person        I-person
+
+10327              Dominic        B-person        B-person
+10328                Allen        I-person        I-person
+
+10522                Chuck        B-person        B-person
+10523                    D        I-person        I-person
+
+11053                Terry        B-person        B-person
+11054              Sanford        I-person        I-person
+
+11302             Williams        B-person        B-person
+
+11726                Shawn        B-person        B-person
+
+11740               Selena        B-person        B-person
+
+11832                Trump        B-person       B-company
+
+11858                 Nova        B-person        B-person
+
+11978               NICOLE        B-person               O
+11979             PERLROTH        I-person               O
+
+12040              Hillary        B-person        B-person
+
+12206             Muhammad        B-person        B-person
+12207              Youssef        I-person        I-person
+12208           Abdulazeez        I-person               O
+
+12332              Railway        B-person               O
+12333             Minister        I-person               O
+12334               Suresh        I-person        B-person
+12335               Prabhu        I-person        I-person
+
+12597                 June        B-person        B-person
+12598              Kershaw        I-person        I-person
+
+12628                Messi        B-person        B-person
+
+12689                 Lama        B-person               O
+12690               Choepa        I-person               O
+
+12698                 Lama        B-person         B-other
+12699               Choepa        I-person         I-other
+12700                 puja        I-person         I-other
+
+12822                   NZ        B-person       B-geo-loc
+
+12824                Lilac        B-person   B-musicartist
+
+12826                Panda        B-person   I-musicartist
+
+12981           Jacqueline        B-person        B-person
+
+12983              deepika        B-person               O
+
+13152                Jason        B-person        B-person
+
+13653              Hillary        B-person        B-person
+
+13678               Sherry        B-person        B-person
+13679              Compton        I-person        I-person
+
+13727               Cheeks        B-person        B-person
+
+13752              Richard        B-person        B-person
+13753               Wagner        I-person        I-person
+
+13821             Benjamin        B-person        B-person
+13822               Button        I-person        I-person
+
+13843               Harper        B-person        B-person
+
+13870               Austin        B-person        B-person
+13871              Jackson        I-person        I-person
+
+14346                Mesut        B-person        B-person
+14347                 Ozil        I-person        I-person
+
+14401               Hashim        B-person        B-person
+14402                 Amla        I-person        I-person
+
+14937               Mitesh        B-person        B-person
+14938              Thacker        I-person        I-person
+
+15015                MARIS        B-person               O
+15016                RACAL        I-person               O
+
+15235               Daniel        B-person        B-person
+15236              Padilla        I-person        I-person
+
+15326              Rebecca        B-person        B-person
+15327              Manning        I-person        I-person
+
+15557            Bartleson        B-person        B-person
+15558                    ,        I-person               O
+15559                Betty        I-person        B-person
+15560                    J        I-person        I-person
+
+15562                Betty        B-person        B-person
+15563                    J        I-person        I-person
+15564                    .        I-person        I-person
+15565            Bartleson        I-person        I-person
+
+15877                 Jeff        B-person        B-person
+15878              Spicoli        I-person        I-person
+
+15936                Jimmy        B-person        B-person
+15937               Kimmel        I-person        I-person
+
+16143               Streit        B-person        B-person
+
+16145                 Matt        B-person        B-person
+16146              Belesky        I-person        I-person
+
+16202                 Troy        B-person        B-person
+16203           Tulowitzki        I-person        I-person
+
+16339                  lex        B-person               O
+
+16398             -Swadesh        B-person               O
+16399               Deepak        I-person        B-person
+
+16741             Michelle        B-person        B-person
+16742                Obama        I-person        I-person
+
+16748             Michelle        B-person        B-person
+16749                Obama        I-person        I-person
+
+16763                Jamie        B-person        B-person
+
+16890              Barmeen        B-person               O
+
+16913              Gilmore        B-person        B-person
+
+16915               Brooks        B-person        B-person
+
+16917              Bradham        B-person        B-person
+
+16919               Karlos        B-person        B-person
+16920             Williams        I-person        I-person
+
+17058               Craigs        B-person               O
+
+17170                Obama        B-person        B-person
+
+17310                Jesus        B-person        B-person
+
+17312                  God        B-person        B-person
+
+17340              Dorothy        B-person        B-person
+17341              Gilbert        I-person        I-person
+
+17378               Pastor        B-person               O
+17379                  Tim        I-person        B-person
+
+17646                    J        B-person               O
+17647                    .        I-person               O
+17648               Emilio        I-person        B-person
+
+17815                  Cam        B-person        B-person
+
+17975                House        B-person               O
+17976              Speaker        I-person               O
+17977                Brian        I-person        B-person
+17978                bosma        I-person               O
+
+18110                  Jun        B-person        B-person
+18111            Takahashi        I-person        I-person
+
+18329              Collins        B-person        B-person
+18330             Cuthrell        I-person        I-person
+
+18557                Ricky        B-person        B-person
+
+18573               Deputy        B-person               O
+18574                Danny        I-person        B-person
+18575               Oliver        I-person        I-person
+
+18647                  God        B-person        B-person
+
+18657                Carol        B-person        B-person
+18658               Warden        I-person        I-person
+
+18737             Muhammad        B-person        B-person
+18738              Youssef        I-person        I-person
+18739           Abdulazeez        I-person               O
+
+18761              Devonta        B-person        B-person
+18762              Freeman        I-person        I-person
+
+18976               Kelsey        B-person        B-person
+
+19028                 Robb        B-person        B-person
+19029            Armstrong        I-person        I-person
+
+19340                Helen        B-person        B-person
+19341               Mirren        I-person        I-person
+
+19577              Cameron        B-person        B-person
+
+20393               Pastor        B-person               O
+20394                 Troy        I-person        B-person
+20395              Dorrell        I-person        I-person
+
+20417                Assad        B-person        B-person
+
+20421                Putin        B-person        B-person
+
+20555                 Will        B-person               O
+20556         Middlebrooks        I-person        B-person
+
+20700              Luidger        B-person               O
+
+20724               Aguero        B-person        B-person
+
+20731               ISABEL        B-person               O
+20732             KERSHNER        I-person               O
+
+20899               Andrew        B-person        B-person
+20900            Michaelis        I-person        I-person
+
+20934                David        B-person        B-person
+20935                 Luiz        I-person        I-person
+
+20955              Shabana        B-person        B-person
+
+20966               Manish        B-person        B-person
+20967             Malhotra        I-person        I-person
+
+21109                Tommy        B-person        B-person
+
+21111                 Miho        B-person        B-person
+
+21162           Mayweather        B-person        B-person
+
+21170                Manny        B-person        B-person
+
+21184                 Wolf        B-person               O
+
+21248             Mourinho        B-person        B-person
+
+21262               #Obama        B-person        B-person
+
+21394               Kayden        B-person        B-person
+
+21409                 Bill        B-person        B-person
+
+21524                 Raif        B-person        B-person
+21525               Badawi        I-person        I-person
+
+21548                 Adam        B-person        B-person
+
+21639                 Ivan        B-person        B-person
+21640           Israelstam        I-person        I-person
+
+21642               Alison        B-person        B-person
+21643                  Lee        I-person        I-person
+
+21933                Jesse        B-person        B-person
+
+21949                  Lea        B-person        B-person
+21950              Michele        I-person        I-person
+
+22043              Wheeler        B-person        B-person
+
+22045               Flores        B-person        B-person
+
+22059               Cullen        B-person        B-person
+
+22306                BELLA        B-person               O
+
+22350                Allah        B-person        B-person
+
+22498               Barack        B-person        B-person
+22499                Obama        I-person        I-person
+
+22509            President        B-person               O
+22510               Barack        I-person        B-person
+22511                Obama        I-person        I-person
+
+22668              Alfredo        B-person        B-person
+22669               Prieto        I-person        I-person
+
+22779                Scott        B-person        B-person
+
+23351                Obama        B-person        B-person
+
+23366                 Liam        B-person        B-person
+
+23396              Zachary        B-person        B-person
+23397                Scott        I-person        I-person
+23398                Stone        I-person        I-person
+
+23400                 Zach        B-person        B-person
+
+23688                Coach        B-person        B-person
+23689                  Tai        I-person        I-person
+
+23853              Antonio        B-person        B-person
+23854                Gates        I-person        I-person
+
+23856             Ladarius        B-person        B-person
+23857                Green        I-person        I-person
+
+25051               angelo        B-person        B-person
+
+25610                kylie        B-person        B-person
+
+25846        #NAYANTHARA'S        B-person               O
+
+26297                Sonum        B-person               O
+26298              jagetia        I-person               O
+
+26397                Sarah        B-person        B-person
+26398                Piolo        I-person        I-person
+
+26406               Trixie        B-person        B-person
+26407                David        I-person        I-person
+
+26450                Clark        B-person               O
+
+26522                 John        B-person        B-person
+26523              Brennan        I-person        I-person
+
+26557                Terry        B-person        B-person
+
+26741             Muhammad        B-person        B-person
+26742              Youssef        I-person        I-person
+26743           Abdulazeez        I-person               O
+
+26764                Kevin        B-person        B-person
+26765            Pietersen        I-person        I-person
+
+27430                 Edin        B-person        B-person
+27431                Dzeko        I-person        I-person
+
+27558             Muhammad        B-person        B-person
+27559              Youssef        I-person        I-person
+27560           Abdulazeez        I-person               O
+
+27673              Stamkos        B-person        B-person
+
+27809                 Jane        B-person        B-person
+27810              Seymour        I-person        I-person
+
+28034                 John        B-person        B-person
+28035            McDonnell        I-person        I-person
+
+28060                Allah        B-person        B-person
+
+28511                  Jan        B-person               O
+
+28513                Doris        B-person         B-other
+28514                  Day        I-person         I-other
+
+28711                Wazza        B-person        B-person
+
+28994                   Ed        B-person        B-person
+28995               Sihler        I-person        I-person
+
+29028                Dixie        B-person        B-person
+29029               Carter        I-person        I-person
+
+29154              Cassies        B-person               O
+
+29722            Mattingly        B-person        B-person
+
+29724             #Kershaw        B-person        B-person
+
+29920                  God        B-person               O
+
+29948                 Holy        B-person         B-other
+29949               Spirit        I-person         I-other
+
+29993              Zachary        B-person        B-person
+
+30048               lauren        B-person        B-person
+
+30095                 John        B-person        B-person
+30096                   Di        I-person        I-person
+30097                Lemme        I-person               O
+
+30228             Muhammad        B-person        B-person
+30229              Youssef        I-person        I-person
+30230           Abdulazeez        I-person               O
+
+30496                  Pau        B-person        B-person
+30497                Gasol        I-person        I-person
+
+30731                  Dan        B-person        B-person
+30732              Aykroyd        I-person        I-person
+
+30768                louis        B-person        B-person
+
+30870                 hulk        B-person               O
+30871                hogan        I-person        B-person
+
+31140                Santa        B-person        B-person
+31141                Claus        I-person        I-person
+
+31233                 Dani        B-person        B-person
+31234              Pedrosa        I-person        I-person
+
+31316             Michalle        B-person      B-facility
+
+31464              Stephen        B-person        B-person
+31465                    A        I-person               O
+
+31473               LeBron        B-person        B-person
+
+31872              Foligno        B-person        B-person
+
+31887               Sidney        B-person        B-person
+31888               Crosby        I-person        I-person
+
+31930                Prime        B-person               O
+31931             minister        I-person               O
+31932             Narendra        I-person        B-person
+31933                 Modi        I-person        I-person
+
+32142        #FritzDLamons        B-person               O
+
+32153              federer        B-person        B-person
+
+32155            nishikori        B-person               O
+
+32166              federer        B-person        B-person
+
+32239                 Luke        B-person        B-person
+32240                Laird        I-person        I-person
+
+32462                Allah        B-person        B-person
+
+32898                 Hook        B-person               O
+
+32900                 Emma        B-person        B-person
+
+33022                James        B-person        B-person
+
+33052               Jackie        B-person        B-person
+33053                Bands        I-person        I-person
+
+33682                Nasir        B-person        B-person
+33683             El-Rufai        I-person        I-person
+
+33823          Palestinian        B-person               O
+
+33835          Palestinian        B-person               O
+
+33947                 Conn        B-person        B-person
+33948              Taggart        I-person        I-person
+
+34240               OBAMAA        B-person               O
+
+34340              Richard        B-person        B-person
+34341                 Matt        I-person        I-person
+
+34343                David        B-person        B-person
+34344                Sweat        I-person        I-person
+
+34765                Bernd        B-person        B-person
+34766                 Leno        I-person        I-person
+
+34768                  Jan        B-person               O
+34769                Oblak        I-person               O
+
+35033                Aaron        B-person        B-person
+35034               Alexis        I-person        I-person
+
+35306            Ritrovato        B-person               O
+
+35308               Alexis        B-person        B-person
+
+35326                Aaron        B-person        B-person
+
+35398               Bieksa        B-person        B-person
+
+36007               Merkel        B-person        B-person
+
+36234              Mulcair        B-person        B-person
+
+36241               Harper        B-person        B-person
+
+36429                Aaron        B-person        B-person
+36430               Alexis        I-person        I-person
+
+36846                 Coba        B-person               O
+
+36878                 Chad        B-person        B-person
+
+37049               Linval        B-person        B-person
+37050               Joseph        I-person        I-person
+
+37247                Aaron        B-person        B-person
+37248               Alexis        I-person        I-person
+
+37978 Giiiinnnooobillliiiii        B-person               O
+
+38013                 R.K.        B-person        B-person
+38014                Nagar        I-person        I-person
+
+38478            President        B-person        B-person
+38479                Obama        I-person        I-person
+
+38516                  God        B-person        B-person
+
+39094                Mario        B-person        B-person
+39095               Draghi        I-person        I-person
+
+39242                Cesar        B-person        B-person
+39243            Hernandez        I-person        I-person
+
+39262               Samuel        B-person        B-person
+
+39316                Fidel        B-person        B-person
+39317               Castro        I-person        I-person
+
+39629                  Jan        B-person        B-person
+39630                Molby        I-person        I-person
+
+39635                Lucas        B-person        B-person
+39636                Leiva        I-person        I-person
+
+39772               Martin        B-person        B-person
+
+40084                Mayor        B-person        B-person
+40085              Vincent        I-person        I-person
+40086                 Gray        I-person        I-person
+
+40237              Senator        B-person        B-person
+40238              Kashamu        I-person        I-person
+
+40252              Kashamu        B-person               O
+
+40362               Cheryl        B-person        B-person
+
+40478                Allah        B-person        B-person
+40479        Subhan-o-Tala        I-person               O
+
+41280                April        B-person               O
+41281                 Zyon        I-person               O
+
+41346                  Kim        B-person        B-person
+41347                Davis        I-person        I-person
+
+41573                Harry        B-person        B-person
+
+41938             Muhammad        B-person        B-person
+41939              Youssef        I-person        I-person
+41940           Abdulazeez        I-person               O
+
+42022               Hunter        B-person        B-person
+
+42043                 Sale        B-person               O
+
+42711                  Pat        B-person        B-person
+42712              Russell        I-person        I-person
+
+42726              Timothy        B-person        B-person
+
+42727       Bradley-Jessie        B-person        I-person
+42728               Vargas        I-person        I-person
+
+42767        #SamuelDubose        B-person               O
+
+42836                Brian        B-person        B-person
+42837                 Ries        I-person        I-person
+
+42881                  Jon        B-person        B-person
+42882                    T        I-person        I-person
+42883                    .        I-person               O
+42884             Tumilson        I-person               O
+42885                Chief        I-person               O
+42886              Special        I-person               O
+42887              Warfare        I-person               O
+42888             Operator        I-person               O
+
+43086               Hannah        B-person        B-person
+
+43146                 LADY        B-person               O
+43147               TECNIQ        I-person               O
+
+43221               Brooke        B-person        B-person
+
+43325            MacKinnon        B-person        B-person
+43326                    ,        I-person               O
+43327                    A        I-person               O
+43328                    .        I-person               O
+
+43330            MacKinnon        B-person        B-person
+43331                    ,        I-person               O
+
+43333             Prentice        B-person        I-person
+
+43392             Muhammad        B-person        B-person
+43393              Youssef        I-person        I-person
+43394           Abdulazeez        I-person               O
+
+43432              Andreas        B-person        B-person
+43433               Lubitz        I-person        I-person
+
+43927                Barry        B-person        B-person
+
+43972                  God        B-person               O
+
+44009               Jadeja        B-person        B-person
+
+44044               Marcus        B-person        B-person
+44045               Peters        I-person        I-person
+
+44415                David        B-person        B-person
+44416              Cameron        I-person        I-person
+
+44433        #martoncsokas        B-person               O
+
+44501                 Troy        B-person        B-person
+
+44507            Gabriella        B-person        B-person
+
+44546                coach        B-person               O
+44547                    T        I-person               O
+
+44558                Faris        B-person        B-person
+
+44741                 maza        B-person               O
+44742                dohta        I-person               O
+
+44875               Albert        B-person        B-person
+44876             Einstein        I-person        I-person
+
+45035               Bernie        B-person        B-person
+45036              Sanders        I-person        I-person
+
+45039              Clinton        B-person        B-person
+
+45160              Michael        B-person        B-person
+45161               Weston        I-person        I-person
+
+45324                Carol        B-person        B-person
+
+45432                 Gigi        B-person        B-person
+45433               Datome        I-person        I-person
+
+45435              Maurice        B-person        B-person
+45436               Cheeks        I-person        I-person
+
+46014             Muhammad        B-person        B-person
+46015              Youssef        I-person        I-person
+46016           Abdulazeez        I-person               O
+
+46051                  May        B-person               O
+
+46339               Nicole        B-person        B-person
+
+46341                Keona        B-person        B-person
+
+46343                Deona        B-person        B-person
+
+46344                 Luke        B-person        I-person
+
+46346               Kierra        B-person        B-person
+46347                Smith        I-person        I-person
+
+46378                 Adam        B-person        B-person
+46379                Ellis        I-person        I-person
+
+46527                 Jaap        B-person        B-person
+46528                 Stam        I-person        I-person
+
+46666             Muhammad        B-person        B-person
+46667              Youssef        I-person        I-person
+46668           Abdulazeez        I-person               O
+
+46699               Pamela        B-person        B-person
+46700             Anderson        I-person        I-person
+
+46987               robert        B-person        B-person
+46988                 sean        I-person               O
+46989              leonard        I-person        B-person
+
+47048                  BOC        B-person        B-person
+47049                Poloz        I-person        I-person
+
+47486              Lachlan        B-person        B-person
+
+47734                  Tao        B-person        B-person
+
+47737                 Kwon        B-person        B-person
+47738                  Jun        I-person        I-person
+
+47740                Sehun        B-person        B-person
+
+47746              Hyunbin        B-person        B-person
+
+48000                  Tom        B-person        B-person
+48001                Brady        I-person        I-person
+
+48078             Einstein        B-person        B-person
+
+48343            President        B-person        B-person
+48344                Obama        I-person        I-person
+
+48358             #BigPapi        B-person               O
+
+48575                Linda        B-person        B-person
+
+48637                 Rick        B-person        B-person
+48638                 Case        I-person        I-person
+
+48692               Rupert        B-person        B-person
+48693              Murdoch        I-person        I-person
+
+48803               Bishop        B-person        B-person
+48804              Richard        I-person        I-person
+48805               Isindu        I-person        I-person
+
+48837             #TheRock        B-person               O
+
+49057                Aaron        B-person        B-person
+49058               Alexis        I-person        I-person
+
+49107                Alice        B-person        B-person
+49108                 Rice        I-person        I-person
+
+49225             Decovich        B-person               O
+
+49322                 Jeff        B-person        B-person
+49323           Samardzija        I-person        I-person
+
+49784                 June        B-person               O
+
+49786                   CW        B-person               O
+
+49854                 John        B-person        B-person
+49855               McCain        I-person        I-person
+
+49890             Muhammad        B-person        I-person
+
+49895             Muhammad        B-person        I-person
+
+50462               Arthur        B-person        B-person
+50463                  Ray        I-person        I-person
+50464               Bruton        I-person        I-person
+
+50571                 Will        B-person               O
+
+50713              Senator        B-person        B-person
+50714               Inhofe        I-person        I-person
+
+50747             Muhammad        B-person        B-person
+50748              Youssef        I-person        I-person
+50749           Abdulazeez        I-person               O
+
+50868                Calum        B-person        B-person
+
+50888                 Lord        B-person        B-person
+50889            Narasimha        I-person        I-person
+
+50949               Selena        B-person        B-person
+50950                Gomez        I-person        I-person
+
+50953              Vanessa        B-person        B-person
+50954              Hudgens        I-person        I-person
+
+51054                   LG        B-person        B-person
+51055                 Jung        I-person        I-person
+
+51058             Ashutosh        B-person        B-person
+
+51100                 Dada        B-person        B-person
+51101                 5000        I-person        I-person
+
+51128                  HRC        B-person         B-other
+
+51379                   Lt        B-person               O
+51380                    .        I-person               O
+51381             Ignatius        I-person        B-person
+51382              Carroll        I-person        I-person
+
+51716              Deepika        B-person        B-person
+
+51795                 J.J.        B-person        B-person
+51796               Heller        I-person        I-person
+
+51838                Allah        B-person        B-person
+
+51986               Saraki        B-person        B-person
+
+52336                  God        B-person        B-person
+
+52340               Christ        B-person        B-person
+
+52514             Jonathan        B-person        B-person
+
+52774                 jake        B-person        B-person
+
+52890               Donald        B-person        B-person
+52891                Trump        I-person        I-person
+
+52987              Donghae        B-person        B-person
+
+52989                Siwon        B-person        B-person
+
+52998              Donghae        B-person               O
+
+53024                 Ryan        B-person        B-person
+53025              Garbutt        I-person        I-person
+
+53032              Fiddler        B-person      B-facility
+
+53299              Colbert        B-person        B-person
+
+53310               Chafee        B-person        B-person
+
+53312                 Webb        B-person        B-person
+
+53321               George        B-person        B-person
+
+53512              Madison        B-person        B-person
+
+53606                  Lin        B-person        B-person
+
+53663           Chancellor        B-person               O
+53664                 Wise        I-person               O
+
+53715               Sharon        B-person        B-person
+
+53942                Aaron        B-person        B-person
+53943               Alexis        I-person        I-person
+
+53986                Kylie        B-person        B-person
+53987               Jenner        I-person        I-person
+
+54104               Robert        B-person        B-person
+54105                   De        I-person        I-person
+54106                 Niro        I-person        I-person
+
+54113                  The        B-person               O
+54114                 Rock        I-person               O
+
+54346               August        B-person               O
+54347               Maturo        I-person               O
+
+54411                  jay        B-person        B-person
+
+54454               Justin        B-person        B-person
+54455               Bieber        I-person        I-person
+
+54500              Coleman        B-person        B-person
+
+54507              Gemmill        B-person        B-person
+
+54509              Lineker        B-person        B-person
+
+54730                Magic        B-person        B-person
+54731              Johnson        I-person        I-person
+
+54733                  Tim        B-person        B-person
+54734               Duncan        I-person        I-person
+
+54737              Stephen        B-person        B-person
+54738                Curry        I-person        I-person
+
+54939                  God        B-person               O
+
+55175             Inuyasha        B-person        B-person
+
+55194               Kagome        B-person        B-person
+
+55369                Ronda        B-person        B-person
+55370               Rousey        I-person        I-person
+
+55530              Hillary        B-person        B-person
+
+55561               Sergey        B-person        B-person
+55562              Kovalev        I-person        I-person
+
+55564               Nadjib        B-person   B-musicartist
+55565            Mohammedi        I-person   I-musicartist
+
+55623                  God        B-person        B-person
+
+55700                 Jean        B-person        B-person
+55701             Geoffroy        I-person        I-person
+55702                 joue        I-person        I-person
+55703                 Bach        I-person        I-person
+
+55719                 Josh        B-person        B-person
+55720            McEachran        I-person        I-person
+
+55761               Jordan        B-person        B-person
+55762               Spieth        I-person        I-person
+
+56055                  Tim        B-person        B-person
+
+56059               ansley        B-person               O
+
+56062                  God        B-person        B-person
+
+56118               Louisa        B-person        B-person
+56119                  May        I-person        I-person
+56120               Alcott        I-person        I-person
+
+56122                   Jo        B-person        B-person
+56123                March        I-person               O
+
+56403                 Lilo        B-person        B-person
+
+56839            Salvatore        B-person        B-person
+
+56841            Mikaelson        B-person        B-person
+
+56898                 Lina        B-person        B-person
+
+57580                Mikel        B-person        B-person
+57581                Janin        I-person        I-person
+
+57676                 Cody        B-person        B-person
+57677               Rhodes        I-person        I-person
+
+57680              Alberto        B-person        B-person
+57681                  Del        I-person        I-person
+57682                  Rio        I-person        I-person
+
+57699             Jonghyun        B-person        B-person
+
+57877              rajdeep        B-person               O
+
+58232                 Mama        B-person               O
+58233                  Jan        I-person               O
+
+58436          *VAROUFAKIS        B-person               O
+
+58499                  Sam        B-person        B-person
+58500           Winchester        I-person        I-person
+
+58590               Albert        B-person        B-person
+58591             Einstein        I-person        I-person
+
+58735                green        B-person               O
+
+58756               Hubert        B-person        B-person
+58757                Allen        I-person        I-person
+58758                   Jr        I-person        I-person
+58759                    .        I-person               O
+
+58990            #Biafrans        B-person               O
+
+59012                 Hulk        B-person        B-person
+
+59025                 Yoda        B-person        B-person
+
+59142                Aaron        B-person        B-person
+59143               Alexis        I-person        I-person
+
+59191                 Jane        B-person        B-person
+59192              Seymour        I-person        I-person
+
+59714               Justin        B-person        B-person
+
+59716                Jayde        B-person        B-person
+59717               Pierce        I-person        I-person
+
+59812             Scioscia        B-person        B-person
+
+59819               Wilson        B-person        B-person
+
+59827                 Mike        B-person        B-person
+59828             Scioscia        I-person        I-person
+
+59983                 Yoko        B-person        B-person
+
+59987                  Moe        B-person               O
+
+59994               Alison        B-person        B-person
+59995                 Brie        I-person        I-person
+
+60047               Dayron        B-person        B-person
+60048               Willis        I-person        I-person
+
+60177             Muhammad        B-person        B-person
+60178              Youssef        I-person        I-person
+60179           Abdulazeez        I-person               O
+
+60293                Mayim        B-person        B-person
+
+61353               selena        B-person        B-person
+
+61406                Jalen        B-person        B-person
+61407                Tabor        I-person        I-person
+
+61427               Hitler        B-person        B-person
+
+61534               Taylor        B-person        B-person
+
+61614                Natty        B-person               O
+
+61676                 NRIs        B-person               O
+
+61858                Peter        B-person        B-person
+61859            Hutchings        I-person        I-person
+
+61921              Barbara        B-person        B-person
+61922            Goldsmith        I-person        I-person
+
+62006                David        B-person        B-person
+62007            Rodriguez        I-person        I-person
+
+62104               Keller        B-person        B-person
+62105             Rohrback        I-person        I-person
+
+62187            President        B-person        B-person
+62188                Obama        I-person        I-person
+
+63869              CAMERON        B-person        B-person
+
+63889              Welbeck        B-person        B-person
+
+64059                David        B-person        B-person
+64060             Fresques        I-person        I-person
+
+64101                Dobby        B-person        B-person
+
+64235                Aaron        B-person        B-person
+64236               Alexis        I-person        I-person
+
+64789                 Nick        B-person        B-person
+
+64944                 Mark        B-person        B-person
+64945             Rippetoe        I-person        I-person
+
+65091                Vicki        B-person        B-person
+65092                  Mar        I-person               O
+
+65410              Cassper        B-person        B-person

@@ -1,0 +1,134 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Alphabet	lasagne_nlp/utils/alphabet.py	/^class Alphabet:$/;"	c
+CRFLayer	lasagne_nlp/networks/crf.py	/^class CRFLayer(MergeLayer):$/;"	c
+DepParserLayer	lasagne_nlp/networks/parser.py	/^class DepParserLayer(MergeLayer):$/;"	c
+GaussianDropoutLayer	lasagne_nlp/networks/dropout.py	/^class GaussianDropoutLayer(Layer):$/;"	c
+GraphConvLayer	lasagne_nlp/networks/graph.py	/^class GraphConvLayer(MergeLayer):$/;"	c
+HighwayDenseLayer	lasagne_nlp/networks/highway.py	/^class HighwayDenseLayer(Layer):$/;"	c
+LENGTH	rnn.py	/^LENGTH = 100$/;"	v
+LogAbsDet	lasagne_nlp/theano/nlinalg.py	/^class LogAbsDet(Op):$/;"	c
+MAX_CHAR_LENGTH	lasagne_nlp/utils/data_processor.py	/^MAX_CHAR_LENGTH = 45$/;"	v
+MAX_LENGTH	lasagne_nlp/utils/data_processor.py	/^MAX_LENGTH = 120$/;"	v
+NUM_UNITS	rnn.py	/^NUM_UNITS = 1$/;"	v
+__all__	lasagne_nlp/networks/dropout.py	/^__all__ = [$/;"	v
+__all__	lasagne_nlp/networks/graph.py	/^__all__ = [$/;"	v
+__all__	lasagne_nlp/networks/highway.py	/^__all__ = [$/;"	v
+__all__	lasagne_nlp/networks/parser.py	/^__all__ = [$/;"	v
+__author__	bi_lstm.py	/^__author__ = 'max'$/;"	v
+__author__	bi_lstm_cnn.py	/^__author__ = 'max'$/;"	v
+__author__	bi_lstm_cnn_crf.py	/^__author__ = 'max'$/;"	v
+__author__	bi_lstm_highcnn.py	/^__author__ = 'max'$/;"	v
+__author__	bi_rnn.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/__init__.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/networks/__init__.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/networks/crf.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/networks/dropout.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/networks/graph.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/networks/highway.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/networks/networks.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/networks/parser.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/theano/__init__.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/theano/nlinalg.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/utils/__init__.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/utils/alphabet.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/utils/data_processor.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/utils/objectives.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/utils/regularization.py	/^__author__ = 'max'$/;"	v
+__author__	lasagne_nlp/utils/utils.py	/^__author__ = 'max'$/;"	v
+__init__	lasagne_nlp/networks/crf.py	/^    def __init__(self, incoming, num_labels, mask_input=None, W=init.GlorotUniform(), b=init.Constant(0.), **kwargs):$/;"	m	class:CRFLayer
+__init__	lasagne_nlp/networks/dropout.py	/^    def __init__(self, incoming, sigma=1.0, **kwargs):$/;"	m	class:GaussianDropoutLayer
+__init__	lasagne_nlp/networks/graph.py	/^    def __init__(self, incoming_vertex, incoming_edge, num_filters, filter_size, W=init.GlorotUniform(),$/;"	m	class:GraphConvLayer
+__init__	lasagne_nlp/networks/highway.py	/^    def __init__(self, incoming, W_h=init.GlorotUniform(), b_h=init.Constant(0.), W_t=init.GlorotUniform(),$/;"	m	class:HighwayDenseLayer
+__init__	lasagne_nlp/networks/parser.py	/^    def __init__(self, incoming, num_labels, mask_input=None, W_h=init.GlorotUniform(), W_c=init.GlorotUniform(),$/;"	m	class:DepParserLayer
+__init__	lasagne_nlp/utils/alphabet.py	/^    def __init__(self, name, keep_growing=True):$/;"	m	class:Alphabet
+__str__	lasagne_nlp/theano/nlinalg.py	/^    def __str__(self):$/;"	m	class:LogAbsDet	file:
+add	lasagne_nlp/utils/alphabet.py	/^    def add(self, instance):$/;"	m	class:Alphabet
+back_pointer	lasagne_nlp/utils/objectives.py	/^    def back_pointer(pointer, pointer_tp1):$/;"	f	function:crf_accuracy
+build_BiGRU	lasagne_nlp/networks/networks.py	/^def build_BiGRU(incoming, num_units, mask=None, grad_clipping=0, precompute_input=True, dropout=True, in_to_out=False):$/;"	f
+build_BiGRU_CNN	lasagne_nlp/networks/networks.py	/^def build_BiGRU_CNN(incoming1, incoming2, num_units, mask=None, grad_clipping=0, precompute_input=True,$/;"	f
+build_BiLSTM	lasagne_nlp/networks/networks.py	/^def build_BiLSTM(incoming, num_units, mask=None, grad_clipping=0, precompute_input=True, peepholes=False, dropout=True,$/;"	f
+build_BiLSTM_CNN	lasagne_nlp/networks/networks.py	/^def build_BiLSTM_CNN(incoming1, incoming2, num_units, mask=None, grad_clipping=0, precompute_input=True,$/;"	f
+build_BiLSTM_CNN_CRF	lasagne_nlp/networks/networks.py	/^def build_BiLSTM_CNN_CRF(incoming1, incoming2, num_units, num_labels, mask=None, grad_clipping=0, precompute_input=True,$/;"	f
+build_BiLSTM_HighCNN	lasagne_nlp/networks/networks.py	/^def build_BiLSTM_HighCNN(incoming1, incoming2, num_units, mask=None, grad_clipping=0, precompute_input=True,$/;"	f
+build_BiLSTM_HighCNN_CRF	lasagne_nlp/networks/networks.py	/^def build_BiLSTM_HighCNN_CRF(incoming1, incoming2, num_units, num_labels, mask=None, grad_clipping=0,$/;"	f
+build_BiRNN	lasagne_nlp/networks/networks.py	/^def build_BiRNN(incoming, num_units, mask=None, grad_clipping=0, nonlinearity=nonlinearities.tanh,$/;"	f
+build_BiRNN_CNN	lasagne_nlp/networks/networks.py	/^def build_BiRNN_CNN(incoming1, incoming2, num_units, mask=None, grad_clipping=0, nonlinearity=nonlinearities.tanh,$/;"	f
+build_char_embedd_table	lasagne_nlp/utils/data_processor.py	/^    def build_char_embedd_table():$/;"	f	function:generate_character_data
+build_embedd_table	lasagne_nlp/utils/data_processor.py	/^def build_embedd_table(word_alphabet, embedd_dict, embedd_dim, caseless):$/;"	f
+close	lasagne_nlp/utils/alphabet.py	/^    def close(self):$/;"	m	class:Alphabet
+construct_char_input_layer	bi_lstm_cnn.py	/^    def construct_char_input_layer():$/;"	f	function:main
+construct_char_input_layer	bi_lstm_cnn_crf.py	/^    def construct_char_input_layer():$/;"	f	function:main
+construct_char_input_layer	bi_lstm_highcnn.py	/^    def construct_char_input_layer():$/;"	f	function:main
+construct_input_layer	bi_lstm.py	/^    def construct_input_layer():$/;"	f	function:main
+construct_input_layer	bi_lstm_cnn.py	/^    def construct_input_layer():$/;"	f	function:main
+construct_input_layer	bi_lstm_cnn_crf.py	/^    def construct_input_layer():$/;"	f	function:main
+construct_input_layer	bi_lstm_highcnn.py	/^    def construct_input_layer():$/;"	f	function:main
+construct_input_layer	bi_rnn.py	/^    def construct_input_layer():$/;"	f	function:main
+construct_tensor	lasagne_nlp/utils/data_processor.py	/^    def construct_tensor(word_index_sentences, pos_index_sentences, head_sentences, type_index_sentences):$/;"	f	function:load_dataset_parsing
+construct_tensor_char	lasagne_nlp/utils/data_processor.py	/^    def construct_tensor_char(index_sentences):$/;"	f	function:generate_character_data
+construct_tensor_fine_tune	lasagne_nlp/utils/data_processor.py	/^    def construct_tensor_fine_tune(word_index_sentences, label_index_sentences):$/;"	f	function:load_dataset_sequence_labeling
+construct_tensor_not_fine_tune	lasagne_nlp/utils/data_processor.py	/^    def construct_tensor_not_fine_tune(word_sentences, label_index_sentences, unknown_embedd, embedd_dict,$/;"	f	function:load_dataset_sequence_labeling
+create_updates	lasagne_nlp/utils/utils.py	/^def create_updates(loss, params, update_algo, learning_rate, momentum=None):$/;"	f
+crf_accuracy	lasagne_nlp/utils/objectives.py	/^def crf_accuracy(energies, targets):$/;"	f
+crf_loss	lasagne_nlp/utils/objectives.py	/^def crf_loss(energies, targets, masks):$/;"	f
+dima	lasagne_nlp/utils/regularization.py	/^def dima(x):$/;"	f
+enumerate_items	lasagne_nlp/utils/alphabet.py	/^    def enumerate_items(self, start=1):$/;"	m	class:Alphabet
+from_json	lasagne_nlp/utils/alphabet.py	/^    def from_json(self, data):$/;"	m	class:Alphabet
+gaussian_dropout	lasagne_nlp/networks/dropout.py	/^gaussian_dropout = GaussianDropoutLayer # shortcut/;"	v
+generate_character_data	lasagne_nlp/utils/data_processor.py	/^def generate_character_data(sentences_train, sentences_dev, sentences_test, max_sent_length, char_embedd_dim=30):$/;"	f
+generate_dataset_fine_tune	lasagne_nlp/utils/data_processor.py	/^    def generate_dataset_fine_tune():$/;"	f	function:load_dataset_sequence_labeling
+generate_dataset_not_fine_tune	lasagne_nlp/utils/data_processor.py	/^    def generate_dataset_not_fine_tune():$/;"	f	function:load_dataset_sequence_labeling
+get_W_shape	lasagne_nlp/networks/graph.py	/^    def get_W_shape(self):$/;"	m	class:GraphConvLayer
+get_all_params_by_name	lasagne_nlp/utils/utils.py	/^def get_all_params_by_name(layer, name=None, **tags):$/;"	f
+get_batch	rnn.py	/^def get_batch(batch_size):$/;"	f
+get_character_indexes	lasagne_nlp/utils/data_processor.py	/^    def get_character_indexes(sentences):$/;"	f	function:generate_character_data
+get_content	lasagne_nlp/utils/alphabet.py	/^    def get_content(self):$/;"	m	class:Alphabet
+get_index	lasagne_nlp/utils/alphabet.py	/^    def get_index(self, instance):$/;"	m	class:Alphabet
+get_instance	lasagne_nlp/utils/alphabet.py	/^    def get_instance(self, index):$/;"	m	class:Alphabet
+get_logger	lasagne_nlp/utils/utils.py	/^def get_logger(name, level=logging.INFO, handler=sys.stdout,$/;"	f
+get_max_length	lasagne_nlp/utils/data_processor.py	/^def get_max_length(word_sentences):$/;"	f
+get_output_for	lasagne_nlp/networks/crf.py	/^    def get_output_for(self, inputs, **kwargs):$/;"	m	class:CRFLayer
+get_output_for	lasagne_nlp/networks/dropout.py	/^    def get_output_for(self, input, deterministic=False, **kwargs):$/;"	m	class:GaussianDropoutLayer
+get_output_for	lasagne_nlp/networks/graph.py	/^    def get_output_for(self, inputs, **kwargs):$/;"	m	class:GraphConvLayer
+get_output_for	lasagne_nlp/networks/highway.py	/^    def get_output_for(self, input, **kwargs):$/;"	m	class:HighwayDenseLayer
+get_output_for	lasagne_nlp/networks/parser.py	/^    def get_output_for(self, inputs, **kwargs):$/;"	m	class:DepParserLayer
+get_output_shape_for	lasagne_nlp/networks/crf.py	/^    def get_output_shape_for(self, input_shapes):$/;"	m	class:CRFLayer
+get_output_shape_for	lasagne_nlp/networks/graph.py	/^    def get_output_shape_for(self, input_shapes):$/;"	m	class:GraphConvLayer
+get_output_shape_for	lasagne_nlp/networks/highway.py	/^    def get_output_shape_for(self, input_shape):$/;"	m	class:HighwayDenseLayer
+get_output_shape_for	lasagne_nlp/networks/parser.py	/^    def get_output_shape_for(self, input_shapes):$/;"	m	class:DepParserLayer
+grad	lasagne_nlp/theano/nlinalg.py	/^    def grad(self, inputs, g_outputs):$/;"	m	class:LogAbsDet
+inner_function	lasagne_nlp/utils/objectives.py	/^    def inner_function(energies_one_step, prior_pi, prior_pointer):$/;"	f	function:crf_accuracy
+inner_function	lasagne_nlp/utils/objectives.py	/^    def inner_function(energies_one_step, targets_one_step, mask_one_step, prior_partition, prev_label, tg_energy):$/;"	f	function:crf_loss
+iterate_minibatches	lasagne_nlp/utils/utils.py	/^def iterate_minibatches(inputs, targets, masks=None, char_inputs=None, batch_size=10, shuffle=False):$/;"	f
+iteritems	lasagne_nlp/utils/alphabet.py	/^    def iteritems(self):$/;"	m	class:Alphabet
+load	lasagne_nlp/utils/alphabet.py	/^    def load(self, input_directory, name=None):$/;"	m	class:Alphabet
+load_dataset_parsing	lasagne_nlp/utils/data_processor.py	/^def load_dataset_parsing(train_path, dev_path, test_path, word_column=1, pos_column=4, head_column=6, type_column=7,$/;"	f
+load_dataset_sequence_labeling	lasagne_nlp/utils/data_processor.py	/^def load_dataset_sequence_labeling(train_path, dev_path, test_path, word_column=1, label_column=4,$/;"	f
+load_word_embedding_dict	lasagne_nlp/utils/utils.py	/^def load_word_embedding_dict(embedding, embedding_path, word_alphabet, logger, embedd_dim=100):$/;"	f
+logabsdet	lasagne_nlp/theano/nlinalg.py	/^logabsdet = LogAbsDet()$/;"	v
+logger	lasagne_nlp/utils/data_processor.py	/^logger = utils.get_logger("LoadData")$/;"	v
+main	bi_lstm.py	/^def main():$/;"	f
+main	bi_lstm_cnn.py	/^def main():$/;"	f
+main	bi_lstm_cnn_crf.py	/^def main():$/;"	f
+main	bi_lstm_highcnn.py	/^def main():$/;"	f
+main	bi_rnn.py	/^def main():$/;"	f
+main	rnn.py	/^def main():$/;"	f
+make_node	lasagne_nlp/theano/nlinalg.py	/^    def make_node(self, x):$/;"	m	class:LogAbsDet
+open	lasagne_nlp/utils/alphabet.py	/^    def open(self):$/;"	m	class:Alphabet
+output_predictions	lasagne_nlp/utils/utils.py	/^def output_predictions(predictions, targets, masks, filename, label_alphabet, is_flattened=True):$/;"	f
+parser_loss	lasagne_nlp/utils/objectives.py	/^def parser_loss(energies, heads, types, masks):$/;"	f
+perform	lasagne_nlp/theano/nlinalg.py	/^    def perform(self, node, inputs, outputs, params=None):$/;"	m	class:LogAbsDet
+read_conll_parsing	lasagne_nlp/utils/data_processor.py	/^def read_conll_parsing(path, word_alphabet, pos_alphabet, type_alphabet, word_column=1, pos_column=4, head_column=6,$/;"	f
+read_conll_sequence_labeling	lasagne_nlp/utils/data_processor.py	/^def read_conll_sequence_labeling(path, word_alphabet, label_alphabet, word_column=1, label_column=4):$/;"	f
+root_label	lasagne_nlp/utils/data_processor.py	/^root_label = "<ROOT>"$/;"	v
+root_symbol	lasagne_nlp/utils/data_processor.py	/^root_symbol = "##ROOT##"$/;"	v
+save	lasagne_nlp/utils/alphabet.py	/^    def save(self, output_directory, name=None):$/;"	m	class:Alphabet
+size	lasagne_nlp/utils/alphabet.py	/^    def size(self):$/;"	m	class:Alphabet
+test	bi_lstm_cnn_crf.py	/^def test():$/;"	f
+theano_logsumexp	lasagne_nlp/utils/objectives.py	/^def theano_logsumexp(x, axis=None):$/;"	f
+word_end	lasagne_nlp/utils/data_processor.py	/^word_end = "##WE##"$/;"	v

@@ -1,0 +1,1512 @@
+
+Listing all true instances of company tags in: ../8_cambridge_ltl/data/exp3/predictions/17_test_predict.txt
+
+line                 word            true       predicted
+---- -------------------- --------------- ---------------
+
+  93                  The       B-company               O
+  94                  Sun       I-company               O
+
+ 101                   78       B-company               O
+ 102          Productions       I-company               O
+ 103              Limited       I-company               O
+
+ 183                 eBay       B-company       B-company
+
+ 252             SnapChat       B-company       B-company
+
+ 254                Skype       B-company       B-company
+
+ 259               Linode       B-company       B-company
+
+ 267               Linode       B-company               O
+
+ 756              Twitter       B-company       B-company
+
+ 945            Microsoft       B-company       B-company
+
+1314                  CNN       B-company       B-company
+
+1563               Linode       B-company               O
+
+1632            #TalkTalk       B-company               O
+
+1763              Chicago       B-company       B-geo-loc
+1764              Tribune       I-company               O
+
+1771                  ACM       B-company               O
+1772                   FX       I-company               O
+
+1787                  IBT       B-company               O
+
+2056              Renault       B-company       B-company
+
+2130                Kmart       B-company       B-company
+2131            Australia       I-company       I-company
+
+2142                Kmart       B-company       B-company
+2143            Australia       I-company       I-company
+
+2588              Bohemia       B-company       I-product
+2589          Interactive       I-company               O
+
+2804             BirCraft       B-company               O
+
+2953             #Twitter       B-company               O
+
+2955           #Pinterest       B-company               O
+
+2957              #Tumblr       B-company       B-company
+
+2963             #Zendesk       B-company               O
+
+3071               Calvin       B-company        B-person
+3072                Klein       I-company        I-person
+
+3519                 Vine       B-company               O
+
+3939                Wendy       B-company        B-person
+3940                   's       I-company               O
+
+3966            Microsoft       B-company       B-company
+
+4107              Stinson       B-company      B-facility
+4108              Studios       I-company      I-facility
+
+4139              latimes       B-company               O
+
+4192                 Time       B-company               O
+4193               Warner       I-company       B-company
+4194                Cable       I-company       I-company
+
+4322              Ariston       B-company               O
+4323                 Real       I-company               O
+4324               Estate       I-company               O
+
+4656       http://Web.com       B-company               O
+
+4874              Zendesk       B-company       B-company
+
+5195             TalkTalk       B-company       I-product
+
+5526                  CBS       B-company       B-company
+
+5567              youtube       B-company         B-other
+
+5817               nandos       B-company               O
+
+5822       http://Web.com       B-company               O
+
+5903              Zendesk       B-company       B-company
+
+5907              Twitter       B-company       B-company
+
+5909               Tumblr       B-company       B-company
+
+5911            Pinterest       B-company       B-company
+
+5919               Sunday       B-company               O
+5920                Times       I-company               O
+
+6057              Reuters       B-company       B-company
+
+6301             Snapchat       B-company               O
+
+6325             TalkTalk       B-company       B-company
+
+6327                  BAE       B-company       B-company
+6328              Systems       I-company       I-company
+
+6482               Anthem       B-company               O
+
+6545              Reuters       B-company       B-company
+
+6564                 Amex       B-company       B-company
+
+6829             #Comcast       B-company               O
+
+6859             TalkTalk       B-company       B-company
+
+6954              Twitter       B-company       B-company
+
+6956            Pinterest       B-company       B-company
+
+6958               Tumblr       B-company       B-company
+
+6964              Zendesk       B-company       B-company
+
+6967              Twitter       B-company       B-company
+
+6969            Pinterest       B-company       B-company
+
+6971               Tumblr       B-company       B-company
+
+7073             SendGrid       B-company               O
+
+7080             Coinbase       B-company       B-company
+
+7087         Perlroth/New       B-company         I-other
+7088                 York       I-company         I-other
+7089                Times       I-company         I-other
+
+7096             Snapchat       B-company       B-company
+
+7151                  NBC       B-company       B-company
+
+7165              YouTube       B-company       B-company
+
+7168                  SJP       B-company               O
+
+7446                 Sony       B-company         B-other
+
+7814                  AMC       B-company       B-company
+
+7855              Twitter       B-company       B-company
+
+7857            Pinterest       B-company       B-company
+
+7859               Tumblr       B-company       B-company
+
+7865              Zendesk       B-company       B-company
+
+7868              Twitter       B-company       B-company
+
+7870            Pinterest       B-company       B-company
+
+7872               Tumblr       B-company       B-company
+
+8369             Dubizzle       B-company               O
+
+8534          THEGUARDIAN       B-company               O
+
+8539             TalkTalk       B-company       B-company
+
+8550                  The       B-company               O
+8551                Guard       I-company               O
+
+8787             SendGrid       B-company               O
+
+8794             Coinbase       B-company       B-company
+
+8801                  NYT       B-company         B-other
+
+8810         Philadelphia       B-company         B-other
+8811             Business       I-company         I-other
+8812              Journal       I-company         I-other
+
+8964        TorontoCrypto       B-company               O
+
+8974                 REMC       B-company               O
+
+9065              Reuters       B-company       B-company
+
+10101               Linode       B-company               O
+
+10125             TalkTalk       B-company       B-company
+
+10185              Twitter       B-company       B-company
+
+10209            #talktalk       B-company               O
+
+10302               tumblr       B-company       B-company
+
+10427              Twitter       B-company       B-company
+
+10429               Tumblr       B-company       B-company
+
+10432            Pinterest       B-company       B-company
+
+10435              Zendesk       B-company       B-company
+
+10439            SlashGear       B-company               O
+
+10441     SlashGearTwitter       B-company               O
+
+10449              Patreon       B-company               O
+
+10996                 EWTN       B-company               O
+
+11118             Snapchat       B-company       B-company
+
+11252          Chick-fil-A       B-company       B-company
+
+11460                LisFX       B-company               O
+
+11545              OpenSSL       B-company               O
+
+11598                 Blue       B-company               O
+11599               Shield       I-company               O
+11600                   of       I-company               O
+11601           California       I-company       B-geo-loc
+
+11603                   JD       B-company       B-company
+11604                Supra       I-company       I-company
+
+11964             SendGrid       B-company               O
+
+11971             Coinbase       B-company       B-company
+
+11981                  NYT       B-company               O
+
+12189           Infostrada       B-company               O
+12190               Sports       I-company               O
+
+12201       ConservativeLA       B-company               O
+
+12401             American       B-company       B-company
+12402             Airlines       I-company       I-company
+
+12404                Sabre       B-company               O
+12405              systems       I-company               O
+
+12407            Bloomberg       B-company       B-company
+
+12410              Reuters       B-company       B-company
+
+12477                 KABC       B-company               O
+
+12861                 TIME       B-company               O
+
+12942            #TalkTalk       B-company               O
+
+12961             Starwood       B-company       B-company
+
+12972             Starwood       B-company      B-facility
+12973               Hotels       I-company      I-facility
+12974                    &       I-company      I-facility
+12975              Resorts       I-company      I-facility
+12976            Worldwide       I-company      I-facility
+
+13040                YES24       B-company               O
+
+13061               Google       B-company       B-company
+
+13266                 eBay       B-company       B-company
+
+13424                  TFC       B-company       B-geo-loc
+13425               Canada       I-company       I-geo-loc
+
+13439              Juniper       B-company       B-company
+
+13451              Reuters       B-company       B-company
+
+13455              Juniper       B-company       B-company
+13456             Networks       I-company               O
+13457                  Inc       I-company               O
+
+13579                  MSN       B-company       B-company
+
+13636                  San       B-company       B-geo-loc
+13637            Francisco       I-company       I-geo-loc
+13638            Chronicle       I-company       I-geo-loc
+
+13643            #Monsanto       B-company               O
+
+13774             Republic       B-company               O
+13775             Services       I-company               O
+
+13978                MSNBC       B-company       B-geo-loc
+
+14040                  CNN       B-company       B-company
+
+14147             TalkTalk       B-company       B-company
+
+14533            Interxion       B-company               O
+
+14572             Vodafone       B-company       B-company
+
+14670            Microsoft       B-company       B-company
+
+14854             Snapchat       B-company       B-company
+
+14921                  The       B-company               O
+14922             Economic       I-company               O
+14923                Times       I-company               O
+
+14933              Nitfy50       B-company               O
+
+14989             TalkTalk       B-company       B-company
+
+14991                  BAE       B-company               O
+
+14997                    E       B-company               O
+14998                    &       I-company               O
+14999                    T       I-company               O
+15000             Magazine       I-company               O
+
+15164                  CNN       B-company               O
+
+15303              #Linode       B-company               O
+
+15586              Comcast       B-company       B-company
+
+15874                  CNN       B-company       B-company
+
+15917               Linode       B-company       B-company
+
+15925                   WP       B-company               O
+15926               Engine       I-company               O
+
+15933                  The       B-company               O
+15934                  Fix       I-company               O
+
+16317            Touchnote       B-company               O
+
+16356             SnapChat       B-company       B-company
+
+16358                Skype       B-company       B-company
+
+16536 ■CNN速報(米版)：CNN       B-company               O
+
+16736                  BBC       B-company               O
+
+16851                 Uber       B-company               O
+
+17148             Facebook       B-company       B-company
+
+17151                  BBC       B-company       B-company
+17152                 News       I-company       I-company
+
+17395               Convoy       B-company               O
+17396                   of       I-company               O
+17397                 Hope       I-company               O
+
+17479             TalkTalk       B-company       B-company
+
+17497             TalkTalk       B-company               O
+
+17588                ICANN       B-company       B-company
+
+17637            #Snapchat       B-company               O
+
+17652             Snapchat       B-company               O
+
+17666                 NDTV       B-company       B-company
+17667              Gadgets       I-company               O
+
+17763              Thomson       B-company       B-company
+17764              Reuters       I-company       I-company
+
+17853              TWITTER       B-company               O
+
+18224                   JD       B-company       B-company
+18225          Wetherspoon       I-company       I-company
+
+18297             SnapChat       B-company       B-company
+
+18299                Skype       B-company       B-company
+
+18378                Apple       B-company       B-company
+
+18391                Apple       B-company       B-company
+
+18541            Microsoft       B-company       B-company
+
+18754              #Amazon       B-company               O
+
+18827                 10TV       B-company               O
+
+18856                Kmart       B-company       B-company
+18857            Australia       I-company       I-company
+
+18868                Kmart       B-company       B-company
+18869            Australia       I-company       I-company
+
+19117                  The       B-company               O
+19118              Perfume       I-company               O
+19119                 Shop       I-company               O
+
+19206            Interxion       B-company               O
+
+19311              Embraer       B-company       B-company
+
+19607       http://Web.com       B-company               O
+
+19639             Snapchat       B-company       B-company
+
+20042                Yahoo       B-company       B-company
+20043                 News       I-company       I-company
+20044                   UK       I-company       I-company
+
+20165            #TalkTalk       B-company               O
+
+20265             TalkTalk       B-company       B-company
+
+20407                  BBC       B-company         B-other
+
+20408              NewsBBC       B-company         I-other
+20409                 News       I-company         I-other
+
+20609             TalkTalk       B-company               O
+
+20618             TalkTalk       B-company       B-company
+
+20734                  NYT       B-company               O
+
+20916       http://Web.com       B-company               O
+
+20996              WLDS-TV       B-company               O
+
+21115             showtime       B-company               O
+
+21139              goibibo       B-company               O
+
+21282       MiltonSecurity       B-company               O
+
+21284           #vBulletin       B-company               O
+
+21293             Snapchat       B-company       B-company
+
+21342            Clickable       B-company               O
+21343                Paper       I-company               O
+
+21345             Snapchat       B-company       B-company
+
+21697                Cisco       B-company       B-company
+
+21699            Microsoft       B-company       B-company
+
+21702              Pearson       B-company       B-company
+21703                  VUE       I-company       I-company
+
+21861               Bazaar       B-company               O
+21862               Kuwait       I-company       B-geo-loc
+
+22006               Runner       B-company      B-facility
+22007                   's       I-company      I-facility
+22008                Depot       I-company      I-facility
+
+22208              Twitter       B-company       B-company
+
+22910            Periscope       B-company               O
+
+23295               Hilton       B-company      B-facility
+23296                Hotel       I-company      I-facility
+
+23299                Krebs       B-company      I-facility
+23300                   on       I-company               O
+23301             Security       I-company               O
+
+23534          SILVERWORKS       B-company               O
+
+23812             Snapchat       B-company       B-company
+
+24053                  T4G       B-company               O
+
+24156                 Uber       B-company         B-other
+
+24161              Reuters       B-company       B-company
+
+24284             Staminus       B-company               O
+
+24316             TalkTalk       B-company       B-company
+
+24397            Microsoft       B-company       B-company
+
+24501              InStyle       B-company       B-company
+24502             Magazine       I-company       I-company
+
+24977             Ballyhoo       B-company               O
+
+25017           #Apple’s       B-company               O
+
+25160               #Apple       B-company               O
+
+25161              #Google       B-company               O
+
+25367                    Q       B-company               O
+25368                &amp;       I-company               O
+25369                    S       I-company               O
+25370                &amp;       I-company               O
+25371                    S       I-company               O
+25372                    I       I-company               O
+25373                 Tech       I-company               O
+
+25484               #KATV7       B-company               O
+
+25497 TheJewelryGirlsPlace       B-company               O
+
+25505             TalkTalk       B-company       B-company
+
+25598              Zendesk       B-company       B-company
+
+25601              Twitter       B-company       B-company
+
+25603               Tumblr       B-company       B-company
+
+25605            Pinterest       B-company       B-company
+
+25607                ZDNet       B-company               O
+
+25780      http://Name.com       B-company               O
+
+25883              OpenSSL       B-company               O
+
+26072                 CNET       B-company         B-other
+
+26102             Snapchat       B-company       B-company
+
+26184                Wendy       B-company        B-person
+26185                   's       I-company               O
+
+26226                  BBC       B-company               O
+
+26316                  Sun       B-company               O
+26317                   TV       I-company               O
+
+26399                  The       B-company               O
+26400               Pencil       I-company               O
+26401                 Grip       I-company               O
+
+26413                   WP       B-company               O
+26414               Engine       I-company               O
+
+26455             Staminus       B-company               O
+
+26572                  CBS       B-company         B-other
+26573                Miami       I-company         I-other
+
+26646             Snapchat       B-company       B-company
+
+27040                  TNA       B-company       B-company
+
+27157                  Fox       B-company         B-other
+27158                 News       I-company         I-other
+
+27195               Disney       B-company         B-other
+
+27376                Apple       B-company       B-company
+
+27870             SendGrid       B-company       B-company
+
+27982                  ISC       B-company         B-other
+27983                Diary       I-company         I-other
+
+27985              Zendesk       B-company               O
+
+27988 Tumblr/Pinterest/Twitter       B-company               O
+
+28159                VTech       B-company       B-product
+
+28232                 CNET       B-company         B-other
+
+28356                   LA       B-company       B-geo-loc
+28357                Daily       I-company               O
+28358                 News       I-company               O
+
+28397             TalkTalk       B-company       B-company
+
+28441                   FB       B-company               O
+
+28633      Williams-Sonoma       B-company               O
+
+28874             Snapchat       B-company       B-company
+
+28961               SacBee       B-company               O
+
+28998                 Time       B-company               O
+28999               Warner       I-company       B-company
+29000                Cable       I-company       I-company
+
+29019                  CBS       B-company         B-other
+
+29164             Snapchat       B-company       B-company
+
+29201                 Epic       B-company               O
+29202                Games       I-company               O
+
+29322                Wendy       B-company        B-person
+29323                   's       I-company               O
+
+29614               Google       B-company       B-company
+
+29616                Opera       B-company               O
+
+29619            Microsoft       B-company       B-company
+
+29743              Googles       B-company               O
+
+29747                White       B-company               O
+29748                  Hat       I-company               O
+29749                 -SEO       I-company               O
+
+29784       http://Web.com       B-company               O
+
+30007            SunOnline       B-company               O
+
+30036              Zendesk       B-company       B-company
+
+30101             #BBCnews       B-company               O
+
+30150              Midwest       B-company         B-other
+30151                Dairy       I-company         I-other
+
+30362             Snapchat       B-company       B-company
+
+30397                Bayon       B-company               O
+30398                   TV       I-company               O
+
+30463                Wendy       B-company        B-person
+30464                   's       I-company               O
+
+30483                Wendy       B-company        B-person
+30484                   's       I-company               O
+
+30538             TalkTalk       B-company       B-company
+
+30890                Wendy       B-company        B-person
+30891                   's       I-company               O
+
+30974             #Samsung       B-company       B-product
+
+31047            Techaeris       B-company               O
+
+31303             SnapChat       B-company       B-company
+
+31305                Skype       B-company       B-company
+
+31513      Boeing/Lockheed       B-company               O
+
+31608            Classical       B-company         B-other
+31609             Heritage       I-company         I-other
+
+31744             Snapchat       B-company       B-company
+
+31747              Netflix       B-company       B-company
+
+31884                Yahoo       B-company       B-company
+
+31896          BIZJOURNALS       B-company               O
+
+31900                 Epic       B-company               O
+31901                Games       I-company               O
+
+31906             Triangle       B-company               O
+31907             Business       I-company               O
+31908              Journal       I-company               O
+
+31913             TalkTalk       B-company       B-product
+
+31964             TalkTalk       B-company       B-company
+
+31996                   SC       B-company       B-geo-loc
+31997             Magazine       I-company               O
+
+32102                 BBC1       B-company               O
+
+32354                 eBay       B-company       B-company
+
+32484                  Man       B-company               O
+32485                Boxes       I-company               O
+
+32537               Sports       B-company               O
+32538                  Fan       I-company               O
+32539                100.5       I-company               O
+
+32632                  MTV       B-company         B-other
+
+32865             TalkTalk       B-company       B-company
+
+33534             TalkTalk       B-company       B-company
+
+33578                  FTM       B-company               O
+
+33621                  CNN       B-company       B-company
+33622                   TV       I-company               O
+
+33627                  CNN       B-company       B-company
+
+34042                  MCD       B-company               O
+
+34150            #TalkTalk       B-company               O
+
+34184                  WJZ       B-company               O
+
+34202                  CBS       B-company         B-other
+34203                Local       I-company               O
+
+34219                  NBC       B-company       B-company
+34220                 News       I-company       I-company
+
+34463              Reuters       B-company       B-company
+
+34745              Twitter       B-company       B-company
+
+34847             Vodafone       B-company       B-company
+
+34851             TalkTalk       B-company       B-company
+
+34981                 KWTX       B-company               O
+
+34983               CBS-TV       B-company               O
+
+35088                  BBC       B-company         B-other
+35089                  One       I-company         I-other
+
+35140              Juniper       B-company       B-company
+35141             Networks       I-company       I-company
+
+35143                  CNN       B-company       B-company
+
+35273              Twitter       B-company       B-company
+
+35275            Pinterest       B-company       B-company
+
+35277               Tumblr       B-company       B-company
+
+35283              Zendesk       B-company       B-company
+
+35286              Twitter       B-company       B-company
+
+35288            Pinterest       B-company       B-company
+
+35500             Facebook       B-company       B-company
+
+35841             Chemours       B-company               O
+
+36000            WikiLeaks       B-company       B-company
+
+36012            WikiLeaks       B-company        B-person
+
+36045                 Sony       B-company       B-company
+
+36099             Snapchat       B-company       B-company
+
+36181            Touchnote       B-company               O
+
+36190             【Slash       B-company               O
+
+36310       #EXPconsulting       B-company               O
+
+36313                 Dell       B-company       B-company
+
+36445                  The       B-company               O
+36446           Washington       I-company       B-geo-loc
+36447                 Post       I-company               O
+
+36485                  CBS       B-company       B-company
+36486                 News       I-company       I-company
+
+36576                   LA       B-company               O
+36577             Business       I-company               O
+36578                 News       I-company               O
+
+36580             Snapchat       B-company       B-company
+
+36600                  The       B-company               O
+36601             Guardian       I-company               O
+
+36879          Terhune/Los       B-company               O
+36880              Angeles       I-company               O
+36881                Times       I-company               O
+
+37377                 eBay       B-company       B-company
+
+37457               French       B-company               O
+37458              Telecom       I-company               O
+37459                    '       I-company               O
+37460               Orange       I-company               O
+
+37606             TalkTalk       B-company       B-company
+
+37615                 dell       B-company               O
+
+37646            Sausalito       B-company      B-facility
+37647                Yacht       I-company      I-facility
+37648                 Club       I-company      I-facility
+
+37840               Redmon       B-company      B-facility
+37841                   's       I-company      I-facility
+37842              Village       I-company      I-facility
+37843               Towing       I-company      I-facility
+
+37885               Sunday       B-company               O
+37886                Times       I-company               O
+
+37904              #MARVEL       B-company               O
+
+37923                 EBAY       B-company       B-company
+
+38115              Twitter       B-company       B-company
+
+38685                  SEO       B-company         B-other
+38686                World       I-company         I-other
+
+38739                Kmart       B-company       B-company
+38740            Australia       I-company       I-company
+
+38751                Kmart       B-company       B-company
+38752            Australia       I-company       I-company
+
+38910                 Gaon       B-company               O
+
+38924            Clickable       B-company               O
+38925                Paper       I-company               O
+
+38927             Snapchat       B-company       B-company
+
+39097                  ECB       B-company         B-other
+
+39155 TheJewelryGirlsPlace       B-company               O
+
+39503               Google       B-company       B-company
+
+39652             Snapchat       B-company       B-company
+
+39696          HodderScape       B-company               O
+
+39732             Snapchat       B-company       B-company
+
+39740               Boston       B-company         B-other
+39741                Globe       I-company         I-other
+
+39749                Sabre       B-company         B-other
+39750              systems       I-company         I-other
+
+39813             Vodafone       B-company       B-company
+
+39855            #TalkTalk       B-company               O
+
+39942               Hanteo       B-company               O
+
+40138               4Music       B-company               O
+
+40144                 Audi       B-company       B-company
+
+40776              Zendesk       B-company       B-company
+
+40780              Twitter       B-company       B-company
+
+40782               Tumblr       B-company       B-company
+
+40785            Pinterest       B-company       B-company
+
+40820            Trans-Air       B-company               O
+40821        Manufacturing       I-company               O
+40822                 Corp       I-company               O
+40823                    .       I-company               O
+
+40834               Landry       B-company        B-person
+40835                   's       I-company               O
+
+40842                  The       B-company               O
+40843               Landry       I-company        B-person
+40844                   's       I-company               O
+40845                  Inc       I-company               O
+40846                    .       I-company               O
+
+41066              YouTube       B-company       B-company
+
+41462                Beats       B-company               O
+41463                    1       I-company               O
+
+41908                #NBC7       B-company               O
+
+41926              ZenDesk       B-company               O
+
+41987                  BBA       B-company         B-other
+
+41991              Reuters       B-company       B-company
+
+42105             SendGrid       B-company               O
+
+42117             SendGrid       B-company               O
+
+42230            Touchnote       B-company         B-other
+
+42235             Snapchat       B-company       B-company
+
+42311                  The       B-company               O
+42312             Guardian       I-company               O
+
+42570               Hilton       B-company      B-facility
+42571                Hotel       I-company      I-facility
+
+42672                  Eco       B-company       B-company
+42673                 Bank       I-company       I-company
+42674        Transnational       I-company       I-company
+42675                  Inc       I-company       I-company
+
+42850             Snapchat       B-company       B-company
+
+42971         TheEconomist       B-company               O
+
+43065           #Clickbank       B-company               O
+
+43232              FlyDoha       B-company        B-person
+
+43237                Qatar       B-company       B-geo-loc
+
+43338              Patreon       B-company               O
+
+43366             T-Mobile       B-company       B-company
+
+43370              Patreon       B-company               O
+
+43376            Scottrade       B-company       B-geo-loc
+
+43441          Germanwings       B-company               O
+
+43549             Mashable       B-company               O
+
+43551             Snapchat       B-company       B-company
+
+43561             Snapchat       B-company       B-company
+
+43658          Independent       B-company               O
+
+43688                  ABC       B-company               O
+43689                 News       I-company               O
+
+43691                  New       B-company       B-geo-loc
+43692                 York       I-company       I-geo-loc
+43693                Daily       I-company               O
+
+43845                China       B-company       B-geo-loc
+43846             Baosteel       I-company               O
+
+43860               Ingram       B-company        B-person
+
+43864                  UNC       B-company         B-other
+
+43909              Twitter       B-company       B-company
+
+43911            Pinterest       B-company       B-company
+
+43913               Tumblr       B-company       B-company
+
+43919              Zendesk       B-company               O
+
+43977                  TAG       B-company       B-product
+43978                Heuer       I-company       I-product
+
+44196         #GansettLane       B-company               O
+
+44880                   NY       B-company               O
+44881                Times       I-company               O
+
+44967             Snapchat       B-company       B-company
+
+45254             TalkTalk       B-company       B-company
+
+45359            #Vodafone       B-company               O
+
+45383                Yahoo       B-company       B-company
+45384                 News       I-company       I-company
+45385                   UK       I-company       I-company
+
+45473                Apple       B-company       B-company
+
+45532               Sirius       B-company      B-facility
+45533                   XM       I-company      I-facility
+
+45627               Breach       B-company               O
+45628                    &       I-company               O
+45629                Clear       I-company               O
+
+45679         Snapchat’s       B-company               O
+
+45684                  The       B-company               O
+45685           Washington       I-company       B-geo-loc
+45686                 Post       I-company               O
+
+45827              Pandora       B-company       B-company
+
+45833                Naxos       B-company        B-person
+
+45914         Lifesitenews       B-company               O
+
+45917             Snapchat       B-company       B-company
+
+45932           TechCrunch       B-company               O
+
+45934             Snapchat       B-company       B-company
+
+46077                  CNN       B-company       B-company
+
+46442            Adventist       B-company         B-other
+46443                 News       I-company         I-other
+46444              Network       I-company         I-other
+
+46651                  CBS       B-company       B-company
+46652                 News       I-company       I-company
+
+46750              YouTube       B-company       B-company
+
+46759        screenjunkies       B-company               O
+
+47157               VESSEL       B-company               O
+
+47251             Snapchat       B-company       B-company
+
+47481             Facebook       B-company       B-company
+
+47537           Livestream       B-company               O
+
+47608              Twitter       B-company       B-company
+
+47610            Pinterest       B-company       B-company
+
+47612               Tumblr       B-company       B-company
+
+47618              Zendesk       B-company       B-company
+
+47621              Twitter       B-company       B-company
+
+47623            Pinterest       B-company       B-company
+
+47625               Tumblr       B-company       B-company
+
+47786                  UFM       B-company       B-company
+47787               Sports       I-company       I-company
+
+47789                  Fox       B-company               O
+47790               Sports       I-company               O
+
+47808                FOXTV       B-company               O
+
+47868                  DTN       B-company               O
+47869                Libya       I-company       B-geo-loc
+
+47895                   JD       B-company       B-company
+47896          Wetherspoon       I-company       I-company
+
+47902             TalkTalk       B-company       B-company
+
+47905                   IT       B-company               O
+47906           Governance       I-company               O
+
+47911                Wendy       B-company        B-person
+47912                   's       I-company               O
+
+47952  #LittleAussieBakery       B-company               O
+
+48172            Clickable       B-company               O
+48173                Paper       I-company               O
+
+48175             Snapchat       B-company       B-company
+
+48382              Porsche       B-company        B-person
+
+48415              OpenSSL       B-company               O
+
+48492        #NaturaSugars       B-company               O
+
+48689                  CNN       B-company       B-company
+
+48697                 21st       B-company               O
+48698              Century       I-company               O
+48699                  Fox       I-company               O
+
+48721              Twitter       B-company       B-company
+
+48723            Pinterest       B-company       B-company
+
+48725               Tumblr       B-company       B-company
+
+48731              Zendesk       B-company       B-company
+
+48762             #Zendesk       B-company               O
+
+48841             Snapchat       B-company       B-company
+
+49003             SendGrid       B-company               O
+
+49036                Level       B-company               O
+49037                    1       I-company               O
+
+49088                Wendy       B-company        B-person
+49089                   's       I-company               O
+
+49097                Krebs       B-company         B-other
+49098                   on       I-company               O
+49099             Security       I-company               O
+
+49110                  the       B-company               O
+49111                Tulsa       I-company      B-facility
+49112                World       I-company      I-facility
+
+49272                  SKY       B-company      B-facility
+49273              Channel       I-company      I-facility
+49274                  191       I-company               O
+
+49333              Chicago       B-company       B-geo-loc
+49334                  Sun       I-company               O
+
+49376             TalkTalk       B-company       B-company
+
+49422              Juniper       B-company       B-company
+49423             Networks       I-company       I-company
+
+49459                Wendy       B-company        B-person
+49460                   's       I-company               O
+
+49480                Wendy       B-company        B-person
+49481                   's       I-company               O
+
+49822            #Experian       B-company               O
+
+50124            Caledonia       B-company       B-geo-loc
+50125                 Home       I-company               O
+50126               Health       I-company               O
+50127                  and       I-company               O
+50128              Hospice       I-company         B-other
+
+50167                Apple       B-company       B-company
+
+50488            SpinRilla       B-company               O
+
+50505             Snapchat       B-company       B-company
+
+50615              Twitter       B-company       B-company
+
+50617            Pinterest       B-company       B-company
+
+50619               Tumblr       B-company       B-company
+
+50625              Zendesk       B-company       B-company
+
+51013                   G+       B-company               O
+
+51326              Patreon       B-company               O
+
+51331             T-Mobile       B-company       B-company
+
+51336            Scottrade       B-company         B-other
+
+51534                  CNN       B-company       B-company
+
+51614         Snapchat’s       B-company               O
+
+51732               garnet       B-company               O
+51733                 hill       I-company               O
+
+51737               Garnet       B-company       B-product
+51738                 Hill       I-company       I-product
+
+51864               Tumblr       B-company               O
+
+51873              Zendesk       B-company       B-company
+
+52019             SNAPCHAT       B-company               O
+
+52025                ZDNet       B-company               O
+
+52104              Naughty       B-company               O
+52105              America       I-company       B-geo-loc
+
+52357             Snapchat       B-company       B-company
+
+52555              NBCNews       B-company               O
+
+53293              Chicago       B-company       B-geo-loc
+53294                    (       I-company               O
+53295                   IL       I-company       B-geo-loc
+53296                    )       I-company               O
+53297            Sun-Times       I-company               O
+
+53334               Disney       B-company       B-geo-loc
+
+53386                  USA       B-company       B-geo-loc
+53387                TODAY       I-company               O
+
+53389                   US       B-company       B-geo-loc
+53390                 News       I-company               O
+
+53422                  MKS       B-company       B-company
+53423          Instruments       I-company       I-company
+
+53725                  Fox       B-company       B-company
+53726                 News       I-company       I-company
+
+54270                  CNN       B-company       B-company
+
+54288             Facebook       B-company       B-company
+
+54349                   Oh       B-company               O
+54350                   My       I-company               O
+54351               Disney       I-company               O
+
+54365              Twitter       B-company       B-company
+
+54367            Pinterest       B-company       B-company
+
+54369               Tumblr       B-company       B-company
+
+54375              Zendesk       B-company               O
+
+54623              Twitter       B-company       B-company
+
+54889                 KSPR       B-company               O
+
+55336                Japan       B-company         B-other
+55337             National       I-company         I-other
+55338                 News       I-company         I-other
+
+55350              Chicago       B-company       B-geo-loc
+55351              Tribune       I-company               O
+
+55383                  NBC       B-company         B-other
+
+55430                Kmart       B-company       B-company
+55431            Australia       I-company       I-company
+
+55442                Kmart       B-company       B-company
+55443            Australia       I-company       I-company
+
+55458            SkySports       B-company       B-company
+
+55597          Ballotpedia       B-company               O
+
+55712               Skarbo       B-company               O
+
+55747                Nexus       B-company       B-product
+55748                 Mods       I-company       I-product
+
+55795               TUMBLR       B-company       B-company
+
+55936               weight       B-company               O
+55937             watchers       I-company               O
+
+56225                Wendy       B-company        B-person
+56226                   's       I-company               O
+
+56361               Linode       B-company               O
+
+56499              Digital       B-company               O
+56500               Cinema       I-company               O
+56501               Report       I-company               O
+
+56599            indiegogo       B-company               O
+
+56667               Citrix       B-company       I-product
+
+56675               Citrix       B-company       B-company
+
+56811              Medical       B-company               O
+56812                 News       I-company               O
+56813                Today       I-company               O
+
+56936               Meijer       B-company       B-geo-loc
+
+57042                 Time       B-company               O
+57043               Warner       I-company               O
+57044                Cable       I-company               O
+
+57192             TalkTalk       B-company       B-company
+
+57313            Hollywire       B-company      B-facility
+
+57993             #Bulgari       B-company               O
+
+58062                   JD       B-company       B-company
+58063          Wetherspoon       I-company       I-company
+
+58150             Snapchat       B-company       B-company
+
+58159            Bloomberg       B-company       B-company
+
+58162             Snapchat       B-company       B-company
+
+58170               Google       B-company       B-company
+
+58181                  The       B-company               O
+58182                Verge       I-company               O
+
+58223                 CNET       B-company         B-other
+
+58266                   JD       B-company       B-company
+58267          Wetherspoon       I-company       I-company
+
+58648           LIveStream       B-company               O
+
+58667                  Sun       B-company               O
+58668                   Tv       I-company               O
+58669                 News       I-company               O
+
+58676                  Sun       B-company               O
+58677                   Tv       I-company               O
+58678                 News       I-company               O
+
+58682                Tamil       B-company               O
+58683                 News       I-company               O
+58684               Online       I-company               O
+
+58711                 Time       B-company       B-company
+58712               Warner       I-company       I-company
+58713                Cable       I-company       I-company
+
+58782               French       B-company               O
+58783              Telecom       I-company               O
+58784                    '       I-company               O
+58785               Orange       I-company               O
+58786                    '       I-company               O
+
+58816                  Sun       B-company               O
+58817            Resources       I-company               O
+58818                 N.L.       I-company               O
+
+58933             Snapchat       B-company       B-company
+
+59083                 CNet       B-company               O
+
+59161              Reuters       B-company       B-company
+
+59306            #Vodafone       B-company               O
+
+59327             TalkTalk       B-company       B-company
+
+59513               Linode       B-company       B-company
+
+59583              STAPLES       B-company       B-geo-loc
+
+59797               PCWrld       B-company               O
+
+59799              Zendesk       B-company               O
+
+59803              Twitter       B-company       B-company
+
+59805               Tumblr       B-company       B-company
+
+59808            Pinterest       B-company       B-company
+
+60064                Wendy       B-company        B-person
+60065                   's       I-company               O
+
+60229                Kmart       B-company       B-company
+60230            Australia       I-company       I-company
+
+60241                Kmart       B-company       B-company
+60242            Australia       I-company       I-company
+
+60578            Interxion       B-company               O
+
+60661             TalkTalk       B-company       B-company
+
+61153             TalkTalk       B-company       B-company
+
+61165                  BBC       B-company               O
+61166                  One       I-company               O
+
+61202                 eNCA       B-company        B-person
+
+61265           Livestream       B-company               O
+
+61274                  Los       B-company       B-geo-loc
+61275              Angeles       I-company       I-geo-loc
+61276                Times       I-company               O
+
+61699                Yahoo       B-company       B-company
+61700                 News       I-company               O
+61701                 Tech       I-company               O
+
+61703                Wendy       B-company        B-person
+61704                   's       I-company               O
+
+62020             Snapchat       B-company               O
+
+62027                  USA       B-company       B-geo-loc
+62028                TODAY       I-company               O
+
+62110             Excellus       B-company      B-facility
+62111            BlueCross       I-company      I-facility
+62112           BlueShield       I-company      I-facility
+
+62265                 Sony       B-company       B-product
+
+62362             TalkTalk       B-company               O
+
+62374                  IPO       B-company               O
+
+62488                Apple       B-company       B-company
+62489          Hospitality       I-company       I-company
+62490                 REIT       I-company       I-company
+62491                    ,       I-company               O
+62492                  Inc       I-company               O
+62493                    .       I-company               O
+
+62666             European       B-company      B-facility
+62667              Central       I-company      I-facility
+62668                 Bank       I-company      I-facility
+
+62669                (#ECB       B-company               O
+
+62785             Snapchat       B-company       B-company
+
+63095                Kmart       B-company       B-company
+63096            Australia       I-company       I-company
+
+63107                Kmart       B-company       B-company
+63108            Australia       I-company       I-company
+
+63128                   IG       B-company               O
+
+63132              Twitter       B-company       B-company
+
+63520                Maggi       B-company        B-person
+
+63570                  BBC       B-company       B-company
+63571                 News       I-company       I-company
+
+63734            VBulletin       B-company               O
+
+63747                   WP       B-company       B-company
+63748               Engine       I-company       I-company
+
+63779             TalkTalk       B-company       B-company
+
+63791             Snapchat       B-company       B-company
+
+63793                Skype       B-company       B-company
+
+63803             Snapchat       B-company       B-company
+
+63834                 Time       B-company       B-company
+63835               Warner       I-company       I-company
+63836                Cable       I-company       I-company
+
+64076             TalkTalk       B-company       B-company
+
+64083             TalkTalk       B-company       B-company
+
+64176              Twitter       B-company       B-company
+
+64178            Pinterest       B-company       B-company
+
+64180               Tumblr       B-company       B-company
+
+64186              Zendesk       B-company       B-company
+
+64262                   St       B-company         B-other
+64263                    .       I-company         I-other
+64264               Joseph       I-company         I-other
+64265               Health       I-company         I-other
+
+64307           Biotissima       B-company       B-geo-loc
+
+64330              Twitter       B-company       B-company
+
+64436              Twitter       B-company       B-company
+
+64475             Facebook       B-company       B-company
+
+64726                  550       B-company               O
+64727                Music       I-company               O
+
+64743               French       B-company               O
+64744              Telecom       I-company               O
+64745                    '       I-company               O
+64746               Orange       I-company               O
+
+64833             #afrezza       B-company               O
+
+65218           EVENTBRITE       B-company               O
+
+65347                 Time       B-company       B-company
+65348               Warner       I-company       I-company
+65349                Cable       I-company       I-company
+
+65389                  CAT       B-company               O
+65390              digital       I-company               O
+
+65710           DraftKings       B-company         I-other

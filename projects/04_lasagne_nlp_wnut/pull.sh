@@ -1,0 +1,1 @@
+rsync -zrvuP --exclude=.git "iitm@10.6.45.23:~/rahul/LasagneNLP/*" "."

@@ -1,0 +1,3 @@
+Indian__B-ORG Institute__I-ORG of__I-ORG Technology__I-ORG Madras__I-ORG is__O located__O in__O Chennai,__B-LOC India.__I-LOC
+It__O is__O a__O great__O university.__O
+Cyrus__B-PER Mistry__I-PER has__O been__O ousted__O as__O the__O Chairman__B-ORG of__I-ORG Tata__I-ORG Sons.__I-ORG

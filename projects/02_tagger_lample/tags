@@ -1,0 +1,127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DropoutLayer	nn.py	/^class DropoutLayer(object):$/;"	c
+EmbeddingLayer	nn.py	/^class EmbeddingLayer(object):$/;"	c
+HiddenLayer	nn.py	/^class HiddenLayer(object):$/;"	c
+LSTM	nn.py	/^class LSTM(object):$/;"	c
+Model	model.py	/^class Model(object):$/;"	c
+Optimization	optimization.py	/^class Optimization:$/;"	c
+__init__	model.py	/^    def __init__(self, parameters=None, models_path=None, model_path=None):$/;"	m	class:Model
+__init__	nn.py	/^    def __init__(self, input_dim, hidden_dim, with_batch=True, name='LSTM'):$/;"	m	class:LSTM
+__init__	nn.py	/^    def __init__(self, input_dim, output_dim, bias=True, activation='sigmoid',$/;"	m	class:HiddenLayer
+__init__	nn.py	/^    def __init__(self, input_dim, output_dim, name='embedding_layer'):$/;"	m	class:EmbeddingLayer
+__init__	nn.py	/^    def __init__(self, p=0.5, name='dropout_layer'):$/;"	m	class:DropoutLayer
+__init__	optimization.py	/^    def __init__(self, clip=None):$/;"	m	class:Optimization
+adadelta	optimization.py	/^    def adadelta(self, cost, params, rho=0.95, epsilon=1e-6):$/;"	m	class:Optimization
+adagrad	optimization.py	/^    def adagrad(self, cost, params, lr=1.0, epsilon=1e-6):$/;"	m	class:Optimization
+adam	optimization.py	/^    def adam(self, cost, params, lr=0.001, beta1=0.9, beta2=0.999, epsilon=1e-8):$/;"	m	class:Optimization
+add_component	model.py	/^    def add_component(self, param):$/;"	m	class:Model
+augment_with_pretrained	loader.py	/^def augment_with_pretrained(dictionary, ext_emb_path, words):$/;"	f
+best_dev	train.py	/^                best_dev = dev_score$/;"	v
+best_dev	train.py	/^best_dev = -np.inf$/;"	v
+best_test	train.py	/^                best_test = test_score$/;"	v
+best_test	train.py	/^best_test = -np.inf$/;"	v
+build	model.py	/^    def build(self,$/;"	m	class:Model
+cap_feature	loader.py	/^def cap_feature(s):$/;"	f
+char_mapping	loader.py	/^def char_mapping(sentences):$/;"	f
+count	tagger.py	/^    count = 0$/;"	v
+count	train.py	/^count = 0$/;"	v
+create_dico	utils.py	/^def create_dico(item_list):$/;"	f
+create_input	utils.py	/^def create_input(data, parameters, add_label, singletons=None):$/;"	f
+create_mapping	utils.py	/^def create_mapping(dico):$/;"	f
+dev_data	train.py	/^dev_data = prepare_dataset($/;"	v
+dev_score	train.py	/^            dev_score = evaluate(parameters, f_eval, dev_sentences,$/;"	v
+dev_sentences	train.py	/^dev_sentences = loader.load_sentences(opts.dev, lower, zeros)$/;"	v
+device	optimization.py	/^device = theano.config.device$/;"	v
+dico_words_train	train.py	/^    dico_words_train = dico_words$/;"	v
+dico_words_train	train.py	/^    dico_words_train = word_mapping(train_sentences, lower)[0]$/;"	v
+endOfChunk	evaluation/conlleval	/^sub endOfChunk {$/;"	s
+epoch_costs	train.py	/^    epoch_costs = []$/;"	v
+eval_path	utils.py	/^eval_path = ".\/evaluation"$/;"	v
+eval_script	utils.py	/^eval_script = os.path.join(eval_path, "conlleval")$/;"	v
+eval_temp	utils.py	/^eval_temp = os.path.join(eval_path, "temp")$/;"	v
+evaluate	utils.py	/^def evaluate(parameters, f_eval, raw_sentences, parsed_sentences,$/;"	f
+f	loader.py	/^    def f(x): return x.lower() if lower else x$/;"	f	function:prepare_dataset
+f	loader.py	/^    def f(x): return x.lower() if lower else x$/;"	f	function:prepare_sentence
+f_output	tagger.py	/^f_output = codecs.open(opts.output, 'w', 'utf-8')$/;"	v
+floatX	optimization.py	/^floatX = theano.config.floatX$/;"	v
+forward	nn.py	/^def forward(observations, transitions, viterbi=False,$/;"	f
+freq_eval	train.py	/^freq_eval = 1000  # evaluate on dev every freq_eval steps$/;"	v
+get_gradients	optimization.py	/^    def get_gradients(self, cost, params):$/;"	m	class:Optimization
+get_name	utils.py	/^def get_name(parameters):$/;"	f
+get_updates	optimization.py	/^    def get_updates(self, method, cost, params, *args, **kwargs):$/;"	m	class:Optimization
+help	tagger.py	/^    help="Delimiter to separate words from their tags"$/;"	v
+help	tagger.py	/^    help="Input file location"$/;"	v
+help	tagger.py	/^    help="Model location"$/;"	v
+help	tagger.py	/^    help="Output file location"$/;"	v
+help	train.py	/^    help="Dev set location"$/;"	v
+help	train.py	/^    help="Learning method (SGD, Adadelta, Adam..)"$/;"	v
+help	train.py	/^    help="Location of pretrained embeddings"$/;"	v
+help	train.py	/^    help="Tagging scheme (IOB or IOBES)"$/;"	v
+help	train.py	/^    help="Test set location"$/;"	v
+help	train.py	/^    help="Train set location"$/;"	v
+input	tagger.py	/^            input = create_input(sentence, parameters, False)$/;"	v
+input	train.py	/^        input = create_input(train_data[index], parameters, True, singletons)$/;"	v
+insert_singletons	utils.py	/^def insert_singletons(words, singletons, p=0.5):$/;"	f
+iob2	utils.py	/^def iob2(tags):$/;"	f
+iob_iobes	utils.py	/^def iob_iobes(tags):$/;"	f
+iobes_iob	utils.py	/^def iobes_iob(tags):$/;"	f
+line	tagger.py	/^                line = line.lower()$/;"	v
+line	tagger.py	/^                line = zero_digits(line)$/;"	v
+link	nn.py	/^    def link(self, input):$/;"	m	class:DropoutLayer
+link	nn.py	/^    def link(self, input):$/;"	m	class:EmbeddingLayer
+link	nn.py	/^    def link(self, input):$/;"	m	class:HiddenLayer
+link	nn.py	/^    def link(self, input):$/;"	m	class:LSTM
+load_sentences	loader.py	/^def load_sentences(path, lower, zeros):$/;"	f
+log_sum_exp	nn.py	/^def log_sum_exp(x, axis=None):$/;"	f
+lower	tagger.py	/^                                        lower=parameters['lower'])$/;"	v
+lower	train.py	/^lower = parameters['lower']$/;"	v
+model	tagger.py	/^model = Model(model_path=opts.model)$/;"	v
+model	train.py	/^model = Model(parameters=parameters, models_path=models_path)$/;"	v
+models_path	utils.py	/^models_path = ".\/models"$/;"	v
+n_epochs	train.py	/^n_epochs = 100  # number of epochs over the training set$/;"	v
+new_cost	train.py	/^        new_cost = f_train(*input)$/;"	v
+optparser	tagger.py	/^optparser = optparse.OptionParser()$/;"	v
+optparser	train.py	/^optparser = optparse.OptionParser()$/;"	v
+opts	tagger.py	/^opts = optparser.parse_args()[0]$/;"	v
+opts	train.py	/^opts = optparser.parse_args()[0]$/;"	v
+pad_word_chars	utils.py	/^def pad_word_chars(words):$/;"	f
+parameters	tagger.py	/^parameters = model.parameters$/;"	v
+parameters	train.py	/^parameters = OrderedDict()$/;"	v
+prepare_dataset	loader.py	/^def prepare_dataset(sentences, word_to_id, char_to_id, tag_to_id, lower=False):$/;"	f
+prepare_sentence	loader.py	/^def prepare_sentence(str_words, word_to_id, char_to_id, lower=False):$/;"	f
+recurrence	nn.py	/^        def recurrence(x_t, c_tm1, h_tm1):$/;"	f	function:LSTM.link
+recurrence	nn.py	/^    def recurrence(obs, previous, transitions):$/;"	f	function:forward
+reload	model.py	/^    def reload(self):$/;"	m	class:Model
+reload_mappings	model.py	/^    def reload_mappings(self):$/;"	m	class:Model
+rmsprop	optimization.py	/^    def rmsprop(self, cost, params, lr=0.001, rho=0.9, eps=1e-6):$/;"	m	class:Optimization
+save	model.py	/^    def save(self):$/;"	m	class:Model
+save_mappings	model.py	/^    def save_mappings(self, id_to_word, id_to_char, id_to_tag):$/;"	m	class:Model
+sentence	tagger.py	/^            sentence = prepare_sentence(words, word_to_id, char_to_id,$/;"	v
+set_values	utils.py	/^def set_values(name, param, pretrained):$/;"	f
+sgd	optimization.py	/^    def sgd(self, cost, params, lr=0.01):$/;"	m	class:Optimization
+sgdmomentum	optimization.py	/^    def sgdmomentum(self, cost, params, lr=0.01, momentum=0.9):$/;"	m	class:Optimization
+shared	utils.py	/^def shared(shape, name):$/;"	f
+singletons	train.py	/^singletons = set([word_to_id[k] for k, v$/;"	v
+start	tagger.py	/^start = time.time()$/;"	v
+startOfChunk	evaluation/conlleval	/^sub startOfChunk {$/;"	s
+tag_mapping	loader.py	/^def tag_mapping(sentences):$/;"	f
+tag_scheme	train.py	/^tag_scheme = parameters['tag_scheme']$/;"	v
+test_data	train.py	/^test_data = prepare_dataset($/;"	v
+test_score	train.py	/^            test_score = evaluate(parameters, f_eval, test_sentences,$/;"	v
+test_sentences	train.py	/^test_sentences = loader.load_sentences(opts.test, lower, zeros)$/;"	v
+train_data	train.py	/^train_data = prepare_dataset($/;"	v
+train_sentences	train.py	/^train_sentences = loader.load_sentences(opts.train, lower, zeros)$/;"	v
+update_tag_scheme	loader.py	/^def update_tag_scheme(sentences, tag_scheme):$/;"	f
+word_mapping	loader.py	/^def word_mapping(sentences, lower):$/;"	f
+words	tagger.py	/^        words = line.rstrip().split()$/;"	v
+y_preds	tagger.py	/^                y_preds = f_eval(*input).argmax(axis=1)$/;"	v
+y_preds	tagger.py	/^                y_preds = iobes_iob(y_preds)$/;"	v
+y_preds	tagger.py	/^                y_preds = np.array(f_eval(*input))[1:-1]$/;"	v
+y_preds	tagger.py	/^            y_preds = [model.id_to_tag[y_pred] for y_pred in y_preds]$/;"	v
+zero_digits	utils.py	/^def zero_digits(s):$/;"	f
+zeros	train.py	/^zeros = parameters['zeros']$/;"	v

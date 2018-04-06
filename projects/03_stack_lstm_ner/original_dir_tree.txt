@@ -1,0 +1,447 @@
+.
+├── .gitignore
+├── .gitmodules
+├── CMakeLists.txt
+├── INSTALL.md
+├── README.md
+├── cmake
+│   └── FindEigen3.cmake
+├── dynet
+│   ├── .gitignore
+│   ├── .gitmodules
+│   ├── .travis.yml
+│   ├── CMakeLists.txt
+│   ├── LICENSE.txt
+│   ├── MANIFEST.in
+│   ├── MEM.notes
+│   ├── README.md
+│   ├── bench
+│   │   └── sequence_transduction.py
+│   ├── cmake
+│   │   ├── FindDyNet.cmake
+│   │   └── FindEigen3.cmake
+│   ├── config.h.cmake
+│   ├── contrib
+│   │   └── swig
+│   │       ├── CMakeLists.txt
+│   │       ├── README.md
+│   │       ├── build.sbt
+│   │       ├── dynet_swig.i
+│   │       ├── project
+│   │       │   └── assembly.sbt
+│   │       └── src
+│   │           ├── main
+│   │           │   ├── java
+│   │           │   │   └── edu
+│   │           │   │       └── cmu
+│   │           │   │           └── dynet
+│   │           │   │               └── examples
+│   │           │   │                   └── XorExample.java
+│   │           │   └── scala
+│   │           │       └── edu
+│   │           │           └── cmu
+│   │           │               └── dynet
+│   │           │                   ├── ComputationGraph.scala
+│   │           │                   ├── Dim.scala
+│   │           │                   ├── Expression.scala
+│   │           │                   ├── FastLstmBuilder.scala
+│   │           │                   ├── GRUBuilder.scala
+│   │           │                   ├── Initialize.scala
+│   │           │                   ├── LSTMBuilder.scala
+│   │           │                   ├── Parameter.scala
+│   │           │                   ├── ParameterCollection.scala
+│   │           │                   ├── Pointer.scala
+│   │           │                   ├── RNNBuilder.scala
+│   │           │                   ├── Serialization.scala
+│   │           │                   ├── Tensor.scala
+│   │           │                   ├── Trainer.scala
+│   │           │                   ├── Utilities.scala
+│   │           │                   ├── VariableIndex.scala
+│   │           │                   ├── Vector.scala
+│   │           │                   └── examples
+│   │           │                       ├── EncoderDecoder.scala
+│   │           │                       ├── LinearRegression.scala
+│   │           │                       ├── Mnist.scala
+│   │           │                       ├── MultiLayerPerceptron.scala
+│   │           │                       ├── PoissonRegression.scala
+│   │           │                       ├── RnnLanguageModelBatch.scala
+│   │           │                       ├── WordDict.scala
+│   │           │                       └── XorScala.scala
+│   │           └── test
+│   │               └── scala
+│   │                   └── edu
+│   │                       └── cmu
+│   │                           └── dynet
+│   │                               ├── ComputationGraphSpec.scala
+│   │                               ├── DimSpec.scala
+│   │                               ├── ExpressionSpec.scala
+│   │                               ├── LinearRegressionSpec.scala
+│   │                               ├── ParameterInitSpec.scala
+│   │                               ├── SampleSpec.scala
+│   │                               ├── SerializationSpec.scala
+│   │                               └── VectorSpec.scala
+│   ├── doc
+│   │   ├── Makefile
+│   │   ├── build_doc.sh
+│   │   ├── doxygen
+│   │   │   ├── Doxyfile
+│   │   │   └── references.bib
+│   │   ├── make.bat
+│   │   └── source
+│   │       ├── builders.rst
+│   │       ├── citing.rst
+│   │       ├── code_style.rst
+│   │       ├── commandline.rst
+│   │       ├── conf.py
+│   │       ├── contributing.rst
+│   │       ├── contributors.rst
+│   │       ├── core.rst
+│   │       ├── cpp_basic_tutorial.rst
+│   │       ├── cpp_ref.rst
+│   │       ├── cpp_saving_tutorial.rst
+│   │       ├── debugging.rst
+│   │       ├── doc_style.rst
+│   │       ├── doc_util.py
+│   │       ├── examples.rst
+│   │       ├── images
+│   │       │   ├── ai2.png
+│   │       │   ├── autobatch.gif
+│   │       │   ├── biu.jpg
+│   │       │   ├── cmu.png
+│   │       │   ├── dynet_logo.png
+│   │       │   ├── dynet_logo_bg.png
+│   │       │   ├── dynet_logo_white.png
+│   │       │   ├── dynet_logo_white_and_color.png
+│   │       │   ├── dynet_logomark.png
+│   │       │   ├── minibatch.png
+│   │       │   ├── naist.png
+│   │       │   ├── petuum.png
+│   │       │   └── uw.jpg
+│   │       ├── index.rst
+│   │       ├── install.rst
+│   │       ├── minibatch.rst
+│   │       ├── multiprocessing.rst
+│   │       ├── operations.rst
+│   │       ├── optimizers.rst
+│   │       ├── other_languages.rst
+│   │       ├── python.rst
+│   │       ├── python_ref.rst
+│   │       ├── python_saving_tutorial.rst
+│   │       ├── requirements.txt
+│   │       ├── tutorial.rst
+│   │       └── unorthodox.rst
+│   ├── dynet
+│   │   ├── CMakeLists.txt
+│   │   ├── aligned-mem-pool.cc
+│   │   ├── aligned-mem-pool.h
+│   │   ├── c2w.h
+│   │   ├── cfsm-builder.cc
+│   │   ├── cfsm-builder.h
+│   │   ├── cuda.cc
+│   │   ├── cuda.h
+│   │   ├── cudnn-ops.cu
+│   │   ├── cudnn-ops.h
+│   │   ├── deep-lstm.cc
+│   │   ├── deep-lstm.h
+│   │   ├── devices.cc
+│   │   ├── devices.h
+│   │   ├── dict.cc
+│   │   ├── dict.h
+│   │   ├── dim.cc
+│   │   ├── dim.h
+│   │   ├── dynet-helper.h
+│   │   ├── dynet.cc
+│   │   ├── dynet.h
+│   │   ├── except.h
+│   │   ├── exec.cc
+│   │   ├── exec.h
+│   │   ├── expr.cc
+│   │   ├── expr.h
+│   │   ├── fast-lstm.cc
+│   │   ├── fast-lstm.h
+│   │   ├── functors.h
+│   │   ├── globals.cc
+│   │   ├── globals.h
+│   │   ├── gpu-kernels.h
+│   │   ├── gpu-ops.cu
+│   │   ├── gpu-ops.h
+│   │   ├── grad-check.cc
+│   │   ├── grad-check.h
+│   │   ├── graph.cc
+│   │   ├── graph.h
+│   │   ├── gru.cc
+│   │   ├── gru.h
+│   │   ├── hsm-builder.cc
+│   │   ├── hsm-builder.h
+│   │   ├── init.cc
+│   │   ├── init.h
+│   │   ├── io.cc
+│   │   ├── io.h
+│   │   ├── lstm.cc
+│   │   ├── lstm.h
+│   │   ├── matrix-multiply.h
+│   │   ├── mem.cc
+│   │   ├── mem.h
+│   │   ├── model.cc
+│   │   ├── model.h
+│   │   ├── mp.cc
+│   │   ├── mp.h
+│   │   ├── nodes-activations.cc
+│   │   ├── nodes-activations.h
+│   │   ├── nodes-affinetransform.cc
+│   │   ├── nodes-affinetransform.h
+│   │   ├── nodes-arith-const.cc
+│   │   ├── nodes-arith-const.h
+│   │   ├── nodes-arith-cwise.cc
+│   │   ├── nodes-arith-cwise.h
+│   │   ├── nodes-arith-scalar.cc
+│   │   ├── nodes-arith-scalar.h
+│   │   ├── nodes-arith-sum.cc
+│   │   ├── nodes-arith-sum.h
+│   │   ├── nodes-arith-unary.cc
+│   │   ├── nodes-arith-unary.h
+│   │   ├── nodes-concat.cc
+│   │   ├── nodes-concat.h
+│   │   ├── nodes-const.cc
+│   │   ├── nodes-const.h
+│   │   ├── nodes-contract.cc
+│   │   ├── nodes-contract.h
+│   │   ├── nodes-conv.cc
+│   │   ├── nodes-conv.h
+│   │   ├── nodes-conv2d.cc
+│   │   ├── nodes-conv2d.h
+│   │   ├── nodes-dropout.cc
+│   │   ├── nodes-dropout.h
+│   │   ├── nodes-flow.cc
+│   │   ├── nodes-flow.h
+│   │   ├── nodes-hinge.cc
+│   │   ├── nodes-hinge.h
+│   │   ├── nodes-linalg.cc
+│   │   ├── nodes-linalg.h
+│   │   ├── nodes-logsumexp.cc
+│   │   ├── nodes-logsumexp.h
+│   │   ├── nodes-losses.cc
+│   │   ├── nodes-losses.h
+│   │   ├── nodes-lstm.cc
+│   │   ├── nodes-lstm.h
+│   │   ├── nodes-macros.h
+│   │   ├── nodes-matrixmultiply.cc
+│   │   ├── nodes-matrixmultiply.h
+│   │   ├── nodes-maxpooling2d.cc
+│   │   ├── nodes-maxpooling2d.h
+│   │   ├── nodes-minmax.cc
+│   │   ├── nodes-minmax.h
+│   │   ├── nodes-moments.cc
+│   │   ├── nodes-moments.h
+│   │   ├── nodes-normalization.cc
+│   │   ├── nodes-normalization.h
+│   │   ├── nodes-norms.cc
+│   │   ├── nodes-norms.h
+│   │   ├── nodes-pickneglogsoftmax.cc
+│   │   ├── nodes-pickneglogsoftmax.h
+│   │   ├── nodes-random.cc
+│   │   ├── nodes-random.h
+│   │   ├── nodes-select.cc
+│   │   ├── nodes-select.h
+│   │   ├── nodes-similarities.cc
+│   │   ├── nodes-similarities.h
+│   │   ├── nodes-softmaxes.cc
+│   │   ├── nodes-softmaxes.h
+│   │   ├── nodes-to-device.cc
+│   │   ├── nodes-to-device.h
+│   │   ├── nodes-trig.cc
+│   │   ├── nodes-trig.h
+│   │   ├── nodes.h
+│   │   ├── param-init.cc
+│   │   ├── param-init.h
+│   │   ├── param-nodes.cc
+│   │   ├── param-nodes.h
+│   │   ├── pretrain.cc
+│   │   ├── pretrain.h
+│   │   ├── rnn-state-machine.cc
+│   │   ├── rnn-state-machine.h
+│   │   ├── rnn.cc
+│   │   ├── rnn.h
+│   │   ├── saxe-init.cc
+│   │   ├── saxe-init.h
+│   │   ├── shadow-params.cc
+│   │   ├── shadow-params.h
+│   │   ├── sig.h
+│   │   ├── simd-functors.h
+│   │   ├── str-util.h
+│   │   ├── tensor.cc
+│   │   ├── tensor.h
+│   │   ├── timing.h
+│   │   ├── training.cc
+│   │   ├── training.h
+│   │   ├── treelstm.cc
+│   │   ├── treelstm.h
+│   │   ├── virtual-cudnn.h
+│   │   ├── weight-decay.cc
+│   │   └── weight-decay.h
+│   ├── examples
+│   │   ├── CMakeLists.txt
+│   │   ├── README.md
+│   │   ├── cpp
+│   │   │   ├── attention
+│   │   │   │   ├── attention.h
+│   │   │   │   └── train_attention.cc
+│   │   │   ├── embed-cl
+│   │   │   │   └── train_embed-cl.cc
+│   │   │   ├── encdec
+│   │   │   │   ├── encdec.h
+│   │   │   │   └── train_encdec.cc
+│   │   │   ├── example-data
+│   │   │   │   ├── clusters-hsm.txt
+│   │   │   │   ├── dev-hsm.txt
+│   │   │   │   ├── dev-poi.txt
+│   │   │   │   ├── fin-dev.txt
+│   │   │   │   ├── fin-toy.txt
+│   │   │   │   ├── fin-words-dev.txt
+│   │   │   │   ├── fin-words.txt
+│   │   │   │   ├── fin.txt
+│   │   │   │   ├── seg-sup.dev.txt
+│   │   │   │   ├── textcat.txt
+│   │   │   │   ├── train-hsm.txt
+│   │   │   │   └── train-poi.txt
+│   │   │   ├── imdb
+│   │   │   │   └── train_imdb.cc
+│   │   │   ├── mlc
+│   │   │   │   └── train_mlc.cc
+│   │   │   ├── mnist
+│   │   │   │   ├── README.md
+│   │   │   │   ├── mlp.h
+│   │   │   │   └── train_mnist.cc
+│   │   │   ├── nlm
+│   │   │   │   └── train_nlm.cc
+│   │   │   ├── poisson-regression
+│   │   │   │   └── train_poisson-regression.cc
+│   │   │   ├── read-write
+│   │   │   │   └── train_read-write.cc
+│   │   │   ├── rnn-autobatch
+│   │   │   │   └── train_rnn-autobatch.cc
+│   │   │   ├── rnnlm
+│   │   │   │   ├── README.md
+│   │   │   │   ├── install-examples.sh
+│   │   │   │   └── train_rnnlm.cc
+│   │   │   ├── rnnlm-aevb
+│   │   │   │   └── train_rnnlm-aevb.cc
+│   │   │   ├── rnnlm-batch
+│   │   │   │   ├── rnnlm-batch.h
+│   │   │   │   └── train_rnnlm-batch.cc
+│   │   │   ├── rnnlm-batch-nce
+│   │   │   │   ├── nce.h
+│   │   │   │   ├── sampler.h
+│   │   │   │   └── train_rnnlm-batch-nce.cc
+│   │   │   ├── rnnlm-cfsm
+│   │   │   │   └── train_rnnlm-cfsm.cc
+│   │   │   ├── rnnlm-final-batch
+│   │   │   │   └── train_rnnlm-final-batch.cc
+│   │   │   ├── rnnlm-givenbag
+│   │   │   │   └── rnnlm-givenbag.cc
+│   │   │   ├── rnnlm-mp
+│   │   │   │   ├── rnnlm.h
+│   │   │   │   └── train_rnnlm-mp.cc
+│   │   │   ├── segrnn-sup
+│   │   │   │   └── train_segrnn-sup.cc
+│   │   │   ├── skiprnnlm
+│   │   │   │   └── train_skiprnnlm.cc
+│   │   │   ├── tag-bilstm
+│   │   │   │   └── train_tag-bilstm.cc
+│   │   │   ├── textcat
+│   │   │   │   └── train_textcat.cc
+│   │   │   ├── tok-embed
+│   │   │   │   └── train_tok-embed.cc
+│   │   │   ├── utils
+│   │   │   │   ├── cl-args.h
+│   │   │   │   ├── data-io.h
+│   │   │   │   └── getpid.h
+│   │   │   ├── xor
+│   │   │   │   └── train_xor.cc
+│   │   │   ├── xor-autobatch
+│   │   │   │   └── train_xor-autobatch.cc
+│   │   │   ├── xor-batch
+│   │   │   │   └── train_xor-batch.cc
+│   │   │   ├── xor-batch-lookup
+│   │   │   │   └── train_xor-batch-lookup.cc
+│   │   │   ├── xor-mp
+│   │   │   │   └── train_xor-mp.cc
+│   │   │   ├── xor-multidevice
+│   │   │   │   └── train_xor-multidevice.cc
+│   │   │   ├── xor-simple-mp
+│   │   │   │   └── train_xor-simple-mp.cc
+│   │   │   └── xor-xent
+│   │   │       └── train_xor-xent.cc
+│   │   └── python
+│   │       ├── attention.py
+│   │       ├── bilstmtagger.py
+│   │       ├── cpu_vs_gpu.py
+│   │       ├── minibatch.py
+│   │       ├── rnnlm-batch.py
+│   │       ├── rnnlm.py
+│   │       ├── rnnlm_transduce.py
+│   │       ├── tutorials
+│   │       │   ├── API.ipynb
+│   │       │   ├── Autobatching.ipynb
+│   │       │   ├── RNNs.ipynb
+│   │       │   ├── imgs
+│   │       │   │   ├── autobatch.gif
+│   │       │   │   ├── bist-autobatch-speed.png
+│   │       │   │   └── treelstm-autobatch-speed.png
+│   │       │   └── tutorial-1-xor.ipynb
+│   │       ├── util.py
+│   │       ├── viz_birnn.py
+│   │       └── xor.py
+│   ├── external
+│   │   └── easyloggingpp
+│   ├── python
+│   │   ├── CHANGES.md
+│   │   ├── CMakeLists.txt
+│   │   ├── INSTALL
+│   │   ├── _dynet.pxd
+│   │   ├── _dynet.pyx
+│   │   ├── dynet.py
+│   │   ├── dynet_viz.py
+│   │   ├── makefile
+│   │   ├── model_test.py
+│   │   └── setup.py.in
+│   ├── setup.cfg
+│   ├── setup.py
+│   ├── tests
+│   │   ├── CMakeLists.txt
+│   │   ├── README.md
+│   │   ├── python
+│   │   │   └── test.py
+│   │   ├── test-dynet.cc
+│   │   ├── test-exec.cc
+│   │   ├── test-io.cc
+│   │   ├── test-mem.cc
+│   │   ├── test-nodes.cc
+│   │   ├── test-params.cc
+│   │   ├── test-rnn.cc
+│   │   ├── test-serialize.cc
+│   │   ├── test-softmax.cc
+│   │   ├── test-tensor.cc
+│   │   ├── test-trainers.cc
+│   │   └── test.h
+│   ├── third_party
+│   │   ├── eigen_backward_spatial_convolutions.h
+│   │   ├── eigen_pooling.h
+│   │   ├── eigen_spatial_convolutions.h
+│   │   └── eigen_volume_patch.h
+│   └── tutorial
+│       ├── 0_multiply.cc
+│       ├── 1_linear_regression.cc
+│       └── CMakeLists.txt
+├── ner-system
+│   ├── CMakeLists.txt
+│   ├── README.md
+│   ├── attach_prediction.py
+│   ├── c2.h
+│   ├── conll2parser.py
+│   ├── convert-conll2trans.pl
+│   ├── example.conll-2003
+│   └── lstm-parse.cc
+└── original_dir_tree.txt
+
+75 directories, 369 files
